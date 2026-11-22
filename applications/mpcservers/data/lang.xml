@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='utf-8'?>
+<language>
+  <app key="mpcservers" version="60113">
+    <word key="profile_mpcservers_Servers" js="0">Serwery i ekipy</word>
+    <word key="filestorage__mpcservers_Graphics" js="0">Grafiki gier i trybów serwerów</word>
+    <word key="__app_mpcservers" js="0">Lista serwerów MPCforum</word>
+    <word key="menu__mpcservers_servers" js="0">Lista serwerów MPCforum</word>
+    <word key="menu__mpcservers_servers_forums" js="0">Publikacje serwerów</word>
+    <word key="menu__mpcservers_servers_log" js="0">Dziennik archiwum</word>
+    <word key="menu__mpcservers_servers_settings" js="0">Ustawienia</word>
+    <word key="menutab__mpcservers" js="0">MPCServerSystem</word>
+    <word key="menutab__mpcservers_icon" js="0">server</word>
+    <word key="module__mpcservers_servers" js="0">MPCServerSystem</word>
+    <word key="mpcs_act_author" js="0">Tylko posty i edycje autora tematu. Odświeżenia i odpowiedzi innych osób nie przedłużają publikacji.</word>
+    <word key="mpcs_act_refresh" js="0">Odświeżenie tematu (Bump Up Topics) albo nowa odpowiedź. To ta sama data, według której forum układa listę tematów.</word>
+    <word key="mpcs_add_forum" js="0">Przypisz dział do gry</word>
+    <word key="mpcs_added" js="0">Dodano</word>
+    <word key="mpcs_ajax_error" js="0">Nie udało się odświeżyć spisu. Spróbuj ponownie albo odśwież stronę.</word>
+    <word key="mpcs_apply" js="0">Zastosuj</word>
+    <word key="mpcs_archive_off" js="0">wyłączona</word>
+    <word key="mpcs_archive_summary" js="0">do „%s” po %s bez odświeżenia</word>
+    <word key="mpcs_batch" js="0">Tematów na jedno uruchomienie zadania</word>
+    <word key="mpcs_batch_desc" js="0">Zadanie działa co 5 minut. Niezależnie od niego pierwsze wejście do działu po terminie przenosi od razu do 5 tematów.</word>
+    <word key="mpcs_col_activity" js="0">Ostatnie odświeżenie</word>
+    <word key="mpcs_col_archive" js="0">Archiwizacja</word>
+    <word key="mpcs_col_forum" js="0">Dział</word>
+    <word key="mpcs_col_from" js="0">Z działu</word>
+    <word key="mpcs_col_move" js="0">Przeniesienie</word>
+    <word key="mpcs_col_prefixes" js="0">Grupy prefiksów</word>
+    <word key="mpcs_col_state" js="0">Stan</word>
+    <word key="mpcs_col_tag" js="0">Znacznik</word>
+    <word key="mpcs_col_to" js="0">Do archiwum</word>
+    <word key="mpcs_col_topic" js="0">Temat</word>
+    <word key="mpcs_col_topics" js="0">Tematy z prefiksami</word>
+    <word key="mpcs_col_when" js="0">Kiedy</word>
+    <word key="mpcs_count" js="0">%s %s</word>
+    <word key="mpcs_count_filtered" js="0">Pasuje %s z %s %s</word>
+    <word key="mpcs_default_archive" js="0">Domyślny dział-archiwum</word>
+    <word key="mpcs_default_archive_desc" js="0">Dla działów publikacji, które nie mają własnego archiwum.</word>
+    <word key="mpcs_deleted" js="0">Dział usunięty z aplikacji</word>
+    <word key="mpcs_ed_addgroup" js="0">Dodaj grupę prefiksów</word>
+    <word key="mpcs_ed_delgroup" js="0">Usuń grupę</word>
+    <word key="mpcs_ed_delopt" js="0">Usuń opcję</word>
+    <word key="mpcs_ed_down" js="0">W dół</word>
+    <word key="mpcs_ed_empty" js="0">Brak grup prefiksów: autorzy nie będą musieli niczego wybierać. Kliknij „Dodaj grupę prefiksów”.</word>
+    <word key="mpcs_ed_max" js="0">najwyżej</word>
+    <word key="mpcs_ed_mode" js="0">Wybór</word>
+    <word key="mpcs_ed_multi" js="0">kilka opcji</word>
+    <word key="mpcs_ed_name" js="0">Nazwa grupy, np. Wersja</word>
+    <word key="mpcs_ed_newopt" js="0">Dodaj opcję i naciśnij Enter</word>
+    <word key="mpcs_ed_nolimit" js="0">bez limitu</word>
+    <word key="mpcs_ed_raw" js="0">Edytuj jako tekst</word>
+    <word key="mpcs_ed_single" js="0">jedna opcja</word>
+    <word key="mpcs_ed_up" js="0">W górę</word>
+    <word key="mpcs_ed_visual" js="0">Wróć do edytora</word>
+    <word key="mpcs_edit" js="0">Edytuj</word>
+    <word key="mpcs_edit_title" js="0">Gra i ustawienia działu: %s</word>
+    <word key="mpcs_empty" js="0">Żaden serwer nie spełnia wybranych kryteriów.</word>
+    <word key="mpcs_empty_forum" js="0">W tym dziale nie ma jeszcze publikacji.</word>
+    <word key="mpcs_err_archive_missing" js="0">dział-archiwum nie istnieje</word>
+    <word key="mpcs_err_archive_nopost" js="0">dział-archiwum nie przyjmuje tematów</word>
+    <word key="mpcs_err_archive_pub" js="0">archiwum nie może być działem publikacji</word>
+    <word key="mpcs_err_archive_pub_form" js="0">Archiwum musi być zwykłym działem: nie tym samym i nie innym działem publikacji.</word>
+    <word key="mpcs_err_archive_same" js="0">Dział-archiwum musi być innym działem niż dział publikacji.</word>
+    <word key="mpcs_err_archive_self" js="0">archiwum nie może być tym samym działem</word>
+    <word key="mpcs_err_colon" js="0">Linia %d: brak dwukropka. Wzór: Nazwa grupy: opcja | opcja | opcja</word>
+    <word key="mpcs_err_dup_group" js="0">Linia %d: grupa „%s” jest już zdefiniowana.</word>
+    <word key="mpcs_err_dup_option" js="0">Linia %d: opcja „%s” powtarza się.</word>
+    <word key="mpcs_err_forum_exists" js="0">Ten dział jest już działem publikacji.</word>
+    <word key="mpcs_err_forum_nopost" js="0">W tym dziale nie można zakładać tematów.</word>
+    <word key="mpcs_err_many_groups" js="0">Dział może mieć najwyżej 10 grup prefiksów.</word>
+    <word key="mpcs_err_many_options" js="0">Linia %d: grupa może mieć najwyżej 50 opcji.</word>
+    <word key="mpcs_err_max_zero" js="0">Linia %d: limit wyborów musi wynosić co najmniej 1.</word>
+    <word key="mpcs_err_mover_off" js="0">archiwizacja jest wyłączona w ustawieniach aplikacji</word>
+    <word key="mpcs_err_name" js="0">Linia %d: nazwa grupy musi zawierać litery lub cyfry.</word>
+    <word key="mpcs_err_name_long" js="0">Linia %d: nazwa grupy może mieć najwyżej 40 znaków.</word>
+    <word key="mpcs_err_no_archive" js="0">nie wybrano działu-archiwum</word>
+    <word key="mpcs_err_no_options" js="0">Linia %d: grupa „%s” nie ma żadnych opcji.</word>
+    <word key="mpcs_err_option" js="0">Linia %d: opcja „%s” musi zawierać litery lub cyfry.</word>
+    <word key="mpcs_err_option_long" js="0">Linia %d: opcja „%s” jest dłuższa niż 40 znaków.</word>
+    <word key="mpcs_err_over" js="0">%s: wybierz najwyżej %d</word>
+    <word key="mpcs_err_pick" js="0">Wybierz prefiksy: %s.</word>
+    <word key="mpcs_exp" js="0">Do archiwum: %s</word>
+    <word key="mpcs_f_activity" js="0">Co przedłuża publikację</word>
+    <word key="mpcs_f_archive" js="0">Dział-archiwum</word>
+    <word key="mpcs_f_archive_default" js="0">Domyślny z ustawień aplikacji</word>
+    <word key="mpcs_f_archive_desc" js="0">Zwykły dział, do którego trafiają nieaktywne publikacje.</word>
+    <word key="mpcs_f_days" js="0">Dni bez odświeżenia</word>
+    <word key="mpcs_f_days_desc" js="0">Po tylu dniach bez odświeżenia temat trafia do archiwum. 0 wyłącza archiwizację w tym dziale. Dotyczy tylko tematów założonych po dodaniu działu.</word>
+    <word key="mpcs_f_defs" js="0">Tryby serwera</word>
+    <word key="mpcs_f_defs_desc" js="0">Dodawaj tryby i przeciągaj je za uchwyt, aby ustawić kolejność na liście. Jedna opcja wymaga jednego trybu, kilka opcji pozwala zaznaczyć więcej. Zapisz ustawienia, aby zastosować zmiany.</word>
+    <word key="mpcs_f_delete" js="0">Usuń ten dział z aplikacji</word>
+    <word key="mpcs_f_delete_desc" js="0">Usuwa konfigurację działu. Tematy i ich prefiksy zostają w bazie. Żeby tylko zatrzymać działanie, wyłącz dział.</word>
+    <word key="mpcs_f_description" js="0">Opis nad spisem</word>
+    <word key="mpcs_f_description_desc" js="0">Krótki tekst nad filtrami spisu, np. zasady publikacji. Bez HTML, nowe linie są zachowane.</word>
+    <word key="mpcs_f_enabled" js="0">Włączony</word>
+    <word key="mpcs_f_enabled_desc" js="0">Wyłączenie zatrzymuje wymagane prefiksy, spis i archiwizację w tym dziale. Prefiksy tematów i ustawienia zostają.</word>
+    <word key="mpcs_f_forum" js="0">Dział forum</word>
+    <word key="mpcs_f_forum_desc" js="0">Dział, w którym autorzy publikują serwery. Działy już dodane i kategorie bez tematów są niedostępne.</word>
+    <word key="mpcs_f_lock" js="0">Zamykaj przeniesione tematy</word>
+    <word key="mpcs_f_skip_pinned" js="0">Nie przenoś przypiętych tematów</word>
+    <word key="mpcs_forums_none" js="0">Nie dodano jeszcze żadnego działu publikacji.</word>
+    <word key="mpcs_forums_note" js="0">Spis wstawiasz znacznikiem w poście, np. [serwery] (dział tematu), [serwery=195] albo [serwery=195,299]. Znacznik działa w postach osób z ustawień aplikacji.</word>
+    <word key="mpcs_forums_title" js="0">Rodzaje gier</word>
+    <word key="mpcs_h_archive" js="0">Archiwizacja</word>
+    <word key="mpcs_h_archive_global" js="0">Archiwizacja</word>
+    <word key="mpcs_h_delete" js="0">Usuwanie</word>
+    <word key="mpcs_h_forum" js="0">Dział</word>
+    <word key="mpcs_h_list" js="0">Spis</word>
+    <word key="mpcs_h_listing" js="0">Spis</word>
+    <word key="mpcs_h_perms" js="0">Uprawnienia</word>
+    <word key="mpcs_h_prefixes" js="0">Prefiksy</word>
+    <word key="mpcs_import" js="0">Przenieś dane z wtyczki</word>
+    <word key="mpcs_imported" js="0">Przeniesiono: działy %d, tematy z prefiksami %d, wpisy dziennika %d. Teraz odinstaluj wtyczkę.</word>
+    <word key="mpcs_list_archive_problem" js="0">Publikacje z działu „%s” nie trafiają do archiwum: %s. Popraw to w ACP → MPCServerSystem → Działy.</word>
+    <word key="mpcs_list_label" js="0">Spis serwerów: %s</word>
+    <word key="mpcs_list_limit" js="0">Najwięcej tematów branych do spisu</word>
+    <word key="mpcs_list_limit_desc" js="0">Liczone od ostatnio odświeżonych. Większa liczba to wolniejszy spis w dużych działach.</word>
+    <word key="mpcs_list_old" js="0">Pokazuj w spisie tematy sprzed dodania działu</word>
+    <word key="mpcs_list_pinned" js="0">Pokazuj w spisie przypięte tematy</word>
+    <word key="mpcs_loading" js="0">Wczytywanie…</word>
+    <word key="mpcs_log_none" js="0">Nic jeszcze nie przeniesiono.</word>
+    <word key="mpcs_log_title" js="0">Dziennik przeniesień do archiwum</word>
+    <word key="mpcs_mod_bypass" js="0">Moderatorzy i administratorzy mogą pominąć prefiksy</word>
+    <word key="mpcs_mod_bypass_desc" js="0">Moderator działu może wtedy założyć temat bez prefiksów, np. regulamin działu.</word>
+    <word key="mpcs_move_next_view" js="0">przy najbliższym wejściu</word>
+    <word key="mpcs_mover_enabled" js="0">Przenoś nieaktywne publikacje</word>
+    <word key="mpcs_mover_enabled_desc" js="0">Wyłącznik dla całego forum.</word>
+    <word key="mpcs_multi" js="0">kilka</word>
+    <word key="mpcs_multi_max" js="0">najwyżej %d</word>
+    <word key="mpcs_new_title" js="0">Przypisanie działu do gry</word>
+    <word key="mpcs_next" js="0">Następna</word>
+    <word key="mpcs_no_groups" js="0">brak</word>
+    <word key="mpcs_none" js="0">Brak</word>
+    <word key="mpcs_page_of" js="0">Strona %d z %d</word>
+    <word key="mpcs_pages" js="0">Strony spisu</word>
+    <word key="mpcs_per_page" js="0">Serwerów na stronę spisu</word>
+    <word key="mpcs_pick_bypass" js="0">Jako moderator możesz zostawić prefiksy puste.</word>
+    <word key="mpcs_pick_none" js="0">brak</word>
+    <word key="mpcs_plugin_active" js="0">Wtyczka „Spis publikacji serwerów” jest nadal zainstalowana. Dopóki działa, aplikacja nic nie zmienia na forum, żeby pola prefiksów i spisy nie pojawiały się podwójnie.</word>
+    <word key="mpcs_plugin_steps" js="0">Kliknij „Przenieś dane z wtyczki”, sprawdź listę działów poniżej, a potem odinstaluj wtyczkę w System → Wtyczki. Przenoszenie można powtórzyć, niczego nie dubluje.</word>
+    <word key="mpcs_plugin_tables" js="0">W bazie są dane starej wtyczki „Spis publikacji serwerów”.</word>
+    <word key="mpcs_prefixes_label" js="0">Prefiksy</word>
+    <word key="mpcs_prev" js="0">Poprzednia</word>
+    <word key="mpcs_preview_none" js="0">W ciągu 7 dni nic nie trafi do archiwum.</word>
+    <word key="mpcs_preview_off" js="0">Archiwizacja jest wyłączona (0 dni).</word>
+    <word key="mpcs_preview_problem" js="0">Tematy nie są przenoszone: %s.</word>
+    <word key="mpcs_preview_title" js="0">Najbliższe przeniesienia do archiwum (7 dni)</word>
+    <word key="mpcs_refreshed" js="0">Odświeżono</word>
+    <word key="mpcs_reset" js="0">Wyczyść filtry</word>
+    <word key="mpcs_search" js="0">Szukaj</word>
+    <word key="mpcs_search_placeholder" js="0">Nazwa serwera</word>
+    <word key="mpcs_settings_title" js="0">MPCServerSystem: ustawienia</word>
+    <word key="mpcs_sort" js="0">Sortuj</word>
+    <word key="mpcs_sort_az" js="0">Nazwa A-Z</word>
+    <word key="mpcs_sort_new" js="0">Najnowsze publikacje</word>
+    <word key="mpcs_sort_old" js="0">Najstarsze publikacje</word>
+    <word key="mpcs_sort_refresh" js="0">Ostatnio odświeżone</word>
+    <word key="mpcs_state_off" js="0">wyłączony</word>
+    <word key="mpcs_state_on" js="0">włączony</word>
+    <word key="mpcs_sum_max" js="0">%s (najwyżej %d z %d)</word>
+    <word key="mpcs_sum_multi" js="0">%s (dowolnie z %d)</word>
+    <word key="mpcs_sum_single" js="0">%s (1 z %d)</word>
+    <word key="mpcs_tag_err_forum" js="0">Znacznik spisu: dział %d nie jest działem publikacji. Dodaj go w ACP → MPCServerSystem → Działy.</word>
+    <word key="mpcs_tag_err_render" js="0">Nie udało się zbudować spisu. Szczegóły są w logach systemowych (kategoria mpcservers).</word>
+    <word key="mpcs_tag_err_syntax" js="0">Znacznik spisu: „%s” to nie numer działu. Wzór: [serwery] albo [serwery=195] albo [serwery=195,299].</word>
+    <word key="mpcs_tag_groups" js="0">Grupy, których posty mogą zawierać spis</word>
+    <word key="mpcs_tag_groups_desc" js="0">Znacznik [serwery] działa tylko w postach osób z tych grup (grupa główna albo dodatkowa). Administratorzy mogą zawsze.</word>
+    <word key="mpcs_tag_mods" js="0">Także każdy moderator</word>
+    <word key="mpcs_task_moved" js="0">Przeniesiono do archiwum: %d</word>
+    <word key="mpcs_task_problems" js="0">Problemy: %s</word>
+    <word key="r__mpcs_recommend_manage" js="0">Może polecać serwery i usuwać polecenia MPC</word>
+    <word key="r__mpcs_forums_manage" js="0">Zarządzanie rodzajami gier i działami publikacji</word>
+    <word key="r__mpcs_log_view" js="0">Podgląd dziennika archiwum</word>
+    <word key="r__mpcs_options" js="0">MPCServerSystem</word>
+    <word key="r__mpcs_settings_manage" js="0">Zmiana ustawień</word>
+    <word key="menu__mpcservers_servers_presentation" js="0">Nagrody</word>
+    <word key="module__mpcservers_directory" js="0">Lista serwerów</word>
+    <word key="sps_forums" js="0">Działy prezentacji - ID oddzielone przecinkami</word>
+    <word key="sps_categories" js="0">Kategorie - po jednej w wierszu: identyfikator=Nazwa</word>
+    <word key="sps_cooldown" js="0">Odstęp pomiędzy głosami użytkownika na serwer (sekundy)</word>
+    <word key="sps_paid_enabled" js="0">Płatne podbijanie</word>
+    <word key="sps_paid_enabled_desc" js="0">Tymczasowo wyłączone. Włączenie wymaga podłączenia operatora płatności, więc przełącznik jest zablokowany.</word>
+    <word key="sps_embed_hosts" js="0">Dozwolone domeny prezentacji HTML - po jednej w wierszu</word>
+    <word key="sps_status_enabled" js="0">Włącz cykliczne sprawdzanie statusu</word>
+    <word key="sps_category" js="0">Kategoria serwera</word>
+    <word key="sps_mode" js="0">Rodzaj prezentacji</word>
+    <word key="sps_url" js="0">Adres HTTPS prezentacji HTML</word>
+    <word key="sps_host" js="0">Adres serwera (nazwa hosta lub publiczne IPv4)</word>
+    <word key="sps_port" js="0">Port gry / port zapytań</word>
+    <word key="sps_protocol" js="0">Sposób sprawdzania statusu</word>
+    <word key="sps_player" js="0">Nick Minecraft (opcjonalnie, aby otrzymać kod nagrody)</word>
+    <word key="sps_key_tid" js="0">ID tematu serwera Minecraft - wygeneruj lub zmień klucz API</word>
+    <word key="sps_bad_host" js="0">Podaj nazwę hosta lub publiczny adres IPv4 bez portu.</word>
+    <word key="sps_bad_player" js="0">Nick musi mieć 3-16 znaków: litery, cyfry i podkreślenie.</word>
+    <word key="sps_details" js="0">Publikacja serwera</word>
+    <word key="sps_h_presentation" js="0">Prezentacje serwerów</word>
+    <word key="sps_f_enabled" js="0">Udostępnij formularz prezentacji w tym dziale</word>
+    <word key="sps_f_category" js="0">Gra przypisana do działu</word>
+    <word key="sps_f_html" js="0">Zezwalaj na prezentacje HTML</word>
+    <word key="sps_f_hosts" js="0">Dozwolone domeny HTML (po jednej w wierszu)</word>
+    <word key="sps_f_hosts_desc" js="0">Np. example.org oraz www.example.org. Bez https:// i ścieżek. Domeny obowiązują tylko w tym dziale.</word>
+    <word key="sps_general" js="0">Kategorie i statusy</word>
+    <word key="sps_bad_icon" js="0">Podaj adres HTTPS obrazka PNG, JPG, GIF lub WebP.</word>
+    <word key="sps_bad_url" js="0">Wpisz adres HTTPS z domeny dozwolonej w ustawieniach tego działu.</word>
+    <word key="menu__mpcservers_servers_featured" js="0">Polecane serwery</word>
+    <word key="sps_featured_tid" js="0">ID tematu serwera</word>
+    <word key="sps_featured_on" js="0">Serwer polecany</word>
+    <word key="sps_token_reset" js="0">Wygeneruj / zresetuj token</word>
+    <word key="sps_token_confirm" js="0">Rozumiem, że poprzedni token natychmiast przestanie działać</word>
+    <word key="sps_bad_date" js="0">Podaj poprawną datę otwarcia w formacie RRRR-MM-DD.</word>
+    <word key="sps_f_directory_topics" js="0">Tematy będące spisem serwerów</word>
+    <word key="sps_f_directory_topics_desc" js="0">Wybierz temat lub tematy tego działu. Spis pojawi się automatycznie; wskazane tematy nie będą serwerami i nie będą archiwizowane. Puste pole oznacza brak tematu spisu. Lista obejmuje 2000 najnowszych tematów oraz wcześniej wybrane.</word>
+    <word key="sps_f_tcp" js="0">Pokaż opcjonalną kontrolę TCP (Metin2)</word>
+    <word key="sps_f_tcp_desc" js="0">Domyślnie wyłączone. Nie dotyczy Minecraft ani Counter-Strike, które mają własne metody statusu. TCP sprawdza tylko dostępność portu, nie stan świata gry.</word>
+    <word key="menu__mpcservers_owners" js="0">Panel właściciela</word>
+    <word key="menu__mpcservers_rankings" js="0">Rankingi i top serwery</word>
+    <word key="menu__mpcservers_people" js="0">Osoby i powiązania</word>
+    <word key="menu__mpcservers_owners_settings" js="0">Panel właściciela</word>
+    <word key="r__mpcs_owners_options" js="0">Panel właściciela</word>
+    <word key="r__mpcs_owner_manage" js="0">Zarządzanie: Panel właściciela</word>
+    <word key="menu__mpcservers_rankings_settings" js="0">Rankingi i top serwery</word>
+    <word key="r__mpcs_rankings_options" js="0">Rankingi i top serwery</word>
+    <word key="r__mpcs_rankings_manage" js="0">Zarządzanie: Rankingi i top serwery</word>
+    <word key="menu__mpcservers_people_settings" js="0">Osoby i powiązania</word>
+    <word key="r__mpcs_people_options" js="0">Osoby i powiązania</word>
+    <word key="r__mpcs_people_manage" js="0">Zarządzanie: Osoby i powiązania</word>
+    <word key="menu__mpcservers_people_identities" js="0">Powiązania kont i osób</word>
+    <word key="sps_people_link" js="0">Powiązania osób z kontami</word>
+    <word key="module__mpcservers_people" js="0">Osoby i powiązania</word>
+    <word key="module__mpcservers_owners" js="0">Moje serwery</word>
+    <word key="module__mpcservers_rankings" js="0">Rankingi podbić</word>
+    <word key="mpcs_prefixes" js="0">Tryby serwera</word>
+    <word key="sps_crew" js="0">Ekipa serwera</word>
+    <word key="sps_crew_locked" js="0">Ekipa serwera</word>
+    <word key="sps_crew_rating_access" js="0">Kto może oceniać osoby</word>
+    <word key="sps_recommend_on" js="0">MPC Poleca</word>
+    <word key="sps_person_score" js="0">Twoja ocena</word>
+    <word key="sps_lock_enabled" js="0">Zablokuj ekipę przed zmianami autora</word>
+    <word key="sps_lock_reason" js="0">Uzasadnienie (widoczne w publikacji)</word>
+    <word key="sps_person_id" js="0">ID osoby w rejestrze</word>
+    <word key="sps_person_member" js="0">Konto forum</word>
+    <word key="sps_person_merge" js="0">Potwierdzam scalenie wpisów tej samej osoby</word>
+    <word key="sps_game_name" js="0">Nazwa gry</word>
+    <word key="sps_plain_groups" js="0">Grupy uprawnione do tworzenia zwykłych tematów</word>
+    <word key="task__mover" js="0">Archiwizacja nieaktywnych publikacji serwerów</word>
+    <word key="task__status" js="0">Sprawdzanie statusów serwerów</word>
+    <word key="sps_link_mode_enabled" js="0">Udostępnij tryb prezentacji z linku</word>
+    <word key="sps_link_mode_enabled_desc" js="0">Wyłączenie usuwa ten tryb z formularza i ukrywa podgląd w istniejących publikacjach. Treść posta pozostaje widoczna. Zapisane adresy zostają zachowane, także przy edycji publikacji.</word>
+    <word key="sps_link_mode_disabled" js="0">Prezentacje z linku są wyłączone przez administratora.</word>
+    <word key="sps_presentation_renderer" js="0">Sposób generowania podglądu</word>
+    <word key="sps_presentation_renderer_desc" js="0">Proxy PHP jest domyślne i przechowuje kopię przez godzinę. Skrypty mogą działać w izolowanym podglądzie. Generator screenshotów pozostaje niedostępny do czasu wdrożenia osobnej usługi.</word>
+    <word key="sps_renderer_proxy" js="0">Proxy HTML przez PHP (domyślne)</word>
+    <word key="sps_renderer_screenshot" js="0">Screenshot - wyłączony, wymaga generatora</word>
+    <word key="sps_renderer_unavailable" js="0">Generator screenshotów nie został wdrożony. Wybierz proxy PHP.</word>
+    <word key="sps_proxy_js" js="0">JavaScript w podglądzie proxy</word>
+    <word key="sps_proxy_js_desc" js="0">Włącza skrypty prezentacji w izolowanym podglądzie, bez dostępu do sesji, cookies i dokumentu forum. Zewnętrzne API nadal wymagają zgodnej konfiguracji CORS. Wyłączenie przywraca statyczny podgląd.</word>
+    <word key="menu__mpcservers_servers_advanced" js="0">Zaawansowane</word>
+    <word key="sps_h_previews" js="0">Podglądy prezentacji</word>
+    <word key="sps_proxy_ajax" js="0">Dociąganie treści prezentacji przez AJAX</word>
+    <word key="sps_proxy_ajax_desc" js="0">Przekazuje wyłącznie publiczne odczyty GET w obrębie adresu prezentacji. Nie przesyła cookies, haseł ani danych sesji. Wymaga włączonego JavaScript. Limit: 30 nowych pobrań na minutę dla prezentacji, pozostałe odczyty korzystają z cache.</word>
+    <word key="sps_restrict_domains" js="0">Ogranicz prezentacje do dozwolonych domen</word>
+    <word key="sps_restrict_domains_desc" js="0">Po wyłączeniu można podać prezentację HTTPS spoza listy domen działu. Blokady prywatnych adresów, lokalnego forum, przekierowań oraz limity pobierania nadal obowiązują.</word>
+    <word key="module__mpcservers_metin2" js="0">Metin2</word>
+    <word key="menu__mpcservers_metin2" js="0">Metin2</word>
+    <word key="sls_metin2_options" js="0">Metin2</word>
+    <word key="sls_metin2_manage" js="0">Zarządzanie modułem: Metin2</word>
+    <word key="menu__mpcservers_metin2_settings" js="0">Ustawienia modułu</word>
+    <word key="menu__mpcservers_metin2_publications" js="0">Działy i prefiksy</word>
+    <word key="menu__mpcservers_metin2_advanced" js="0">Zaawansowane podglądy prezentacji</word>
+    <word key="module__mpcservers_minecraft" js="0">Minecraft</word>
+    <word key="menu__mpcservers_minecraft" js="0">Minecraft</word>
+    <word key="sls_minecraft_options" js="0">Minecraft</word>
+    <word key="sls_minecraft_manage" js="0">Zarządzanie modułem: Minecraft</word>
+    <word key="menu__mpcservers_minecraft_settings" js="0">Ustawienia modułu</word>
+    <word key="menu__mpcservers_minecraft_publications" js="0">Działy i prefiksy</word>
+    <word key="module__mpcservers_lists" js="0">Listy serwerów</word>
+    <word key="menu__mpcservers_lists" js="0">Listy serwerów</word>
+    <word key="sls_lists_options" js="0">Listy serwerów</word>
+    <word key="sls_lists_manage" js="0">Zarządzanie modułem: Listy serwerów</word>
+    <word key="menu__mpcservers_lists_settings" js="0">Ustawienia modułu</word>
+    <word key="menu__mpcservers_lists_options" js="0">Ustawienia list</word>
+    <word key="menu__mpcservers_lists_log" js="0">Dziennik</word>
+    <word key="module__mpcservers_highlights" js="0">MPC Poleca i TOP serwery</word>
+    <word key="menu__mpcservers_highlights" js="0">MPC Poleca i TOP serwery</word>
+    <word key="sls_highlights_options" js="0">MPC Poleca i TOP serwery</word>
+    <word key="sls_highlights_manage" js="0">Zarządzanie modułem: MPC Poleca i TOP serwery</word>
+    <word key="menu__mpcservers_highlights_settings" js="0">Ustawienia modułu</word>
+    <word key="menu__mpcservers_highlights_recommended" js="0">Polecane publikacje</word>
+    <word key="module__mpcservers_community" js="0">Osoby, właściciele i powiązania</word>
+    <word key="menu__mpcservers_community" js="0">Osoby, właściciele i powiązania</word>
+    <word key="sls_community_options" js="0">Osoby, właściciele i powiązania</word>
+    <word key="sls_community_manage" js="0">Zarządzanie modułem: Osoby, właściciele i powiązania</word>
+    <word key="menu__mpcservers_community_settings" js="0">Ustawienia modułu</word>
+    <word key="menu__mpcservers_community_identities" js="0">Konta i osoby</word>
+    <word key="r__sls_metin2_options" js="0">Metin2</word>
+    <word key="r__sls_metin2_manage" js="0">Zarządzanie modułem: Metin2</word>
+    <word key="r__sls_minecraft_options" js="0">Minecraft</word>
+    <word key="r__sls_minecraft_manage" js="0">Zarządzanie modułem: Minecraft</word>
+    <word key="r__sls_lists_options" js="0">Listy serwerów</word>
+    <word key="r__sls_lists_manage" js="0">Zarządzanie modułem: Listy serwerów</word>
+    <word key="r__sls_highlights_options" js="0">MPC Poleca i TOP serwery</word>
+    <word key="r__sls_highlights_manage" js="0">Zarządzanie modułem: MPC Poleca i TOP serwery</word>
+    <word key="r__sls_community_options" js="0">Osoby, właściciele i powiązania</word>
+    <word key="r__sls_community_manage" js="0">Zarządzanie modułem: Osoby, właściciele i powiązania</word>
+    <word key="mpcs_owner_panel" js="0">Panel właściciela serwerów</word>
+    <word key="menu__mpcwtyczki_settings_mpcserversmetin2settings" js="0">Serwery Metin2 — Ustawienia modułu</word>
+    <word key="menu__mpcwtyczki_settings_mpcserversmetin2publications" js="0">Serwery Metin2 — Działy i prefiksy</word>
+    <word key="menu__mpcwtyczki_settings_mpcserversmetin2advanced" js="0">Serwery Metin2 — Zaawansowane podglądy prezentacji</word>
+    <word key="menu__mpcwtyczki_settings_mpcserversminecraftsettings" js="0">Serwery Minecraft — Ustawienia modułu</word>
+    <word key="menu__mpcwtyczki_settings_mpcserversminecraftpublications" js="0">Serwery Minecraft — Działy i prefiksy</word>
+    <word key="menu__mpcwtyczki_settings_mpcserverslistssettings" js="0">Listy serwerów — Ustawienia modułu</word>
+    <word key="menu__mpcwtyczki_settings_mpcserverslistsoptions" js="0">Listy serwerów — Ustawienia list</word>
+    <word key="menu__mpcwtyczki_settings_mpcserverslistslog" js="0">Listy serwerów — Dziennik</word>
+    <word key="menu__mpcwtyczki_settings_mpcservershighlightssettings" js="0">MPC Poleca — Ustawienia modułu</word>
+    <word key="menu__mpcwtyczki_settings_mpcservershighlightsrecommended" js="0">MPC Poleca — Polecane publikacje</word>
+    <word key="menu__mpcwtyczki_settings_mpcserverscommunitysettings" js="0">Powiązania serwerów — Ustawienia modułu</word>
+    <word key="menu__mpcwtyczki_settings_mpcserverscommunityidentities" js="0">Powiązania serwerów — Konta i osoby</word>
+    <word key="menu__mpcservers_publication_metin2settings" js="0">Metin2 — Ustawienia modułu</word>
+    <word key="menu__mpcservers_publication_metin2publications" js="0">Metin2 — Działy i prefiksy</word>
+    <word key="menu__mpcservers_publication_metin2advanced" js="0">Metin2 — Zaawansowane podglądy prezentacji</word>
+    <word key="menu__mpcservers_publication_minecraftsettings" js="0">Minecraft — Ustawienia modułu</word>
+    <word key="menu__mpcservers_publication_minecraftpublications" js="0">Minecraft — Działy i prefiksy</word>
+    <word key="menu__mpcservers_publication_listssettings" js="0">Listy serwerów — Ustawienia modułu</word>
+    <word key="menu__mpcservers_publication_listsoptions" js="0">Listy serwerów — Ustawienia list</word>
+    <word key="menu__mpcservers_publication_listslog" js="0">Listy serwerów — Dziennik</word>
+    <word key="menu__mpcservers_publication_highlightssettings" js="0">MPC Poleca i TOP — Ustawienia modułu</word>
+    <word key="menu__mpcservers_publication_highlightsrecommended" js="0">MPC Poleca i TOP — Polecane publikacje</word>
+    <word key="menu__mpcservers_publication_communitysettings" js="0">Właściciele i konta — Ustawienia modułu</word>
+    <word key="menu__mpcservers_publication_communityidentities" js="0">Właściciele i konta — Konta i osoby</word>
+    <word key="menu__mpcservers_publication" js="0">System publikacji</word>
+    <word key="menutab__mpcplugins" js="0">Wtyczki MPCforum</word>
+   <word key="menutab__mpcplugins_icon" js="0">puzzle-piece</word>
+ </app>
+</language>

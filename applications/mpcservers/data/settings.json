@@ -1,0 +1,174 @@
+[
+    {
+        "key": "mpcs_tag_groups",
+        "default": "4,6"
+    },
+    {
+        "key": "mpcs_tag_mods",
+        "default": "1"
+    },
+    {
+        "key": "mpcs_mod_bypass",
+        "default": "1"
+    },
+    {
+        "key": "mpcs_mover_enabled",
+        "default": "1"
+    },
+    {
+        "key": "mpcs_default_archive",
+        "default": "0"
+    },
+    {
+        "key": "mpcs_batch",
+        "default": "50"
+    },
+    {
+        "key": "mpcs_per_page",
+        "default": "20"
+    },
+    {
+        "key": "mpcs_list_pinned",
+        "default": "0"
+    },
+    {
+        "key": "mpcs_list_old",
+        "default": "0"
+    },
+    {
+        "key": "mpcs_list_limit",
+        "default": "1000"
+    },
+    {
+        "key": "sps_forums",
+        "default": ""
+    },
+    {
+        "key": "sps_categories",
+        "default": "minecraft=Minecraft\ncs=Counter-Strike\nmetin=Metin2\nother=Inne"
+    },
+    {
+        "key": "sps_cooldown",
+        "default": "86400"
+    },
+    {
+        "key": "sps_paid_enabled",
+        "default": "0"
+    },
+    {
+        "key": "sps_embed_hosts",
+        "default": ""
+    },
+    {
+        "key": "sps_status_enabled",
+        "default": "0"
+    },
+    {
+        "key": "sps_forum_options",
+        "default": "{}"
+    },
+    {
+        "key": "sps_plain_groups",
+        "default": ""
+    },
+    {
+        "key": "sps_rewards_enabled",
+        "default": "1"
+    },
+    {
+        "key": "sps_game_images",
+        "default": "{}"
+    },
+    {
+        "key": "sps_crew_roles",
+        "default": "{}"
+    },
+    {
+        "key": "sps_rankings_started",
+        "default": "0"
+    },
+    {
+        "key": "sps_awards_started",
+        "default": "0"
+    },
+    {
+        "key": "sps_highlights",
+        "default": "{}"
+    },
+    {
+        "key": "sps_game_icons",
+        "default": "{}"
+    },
+    {
+        "key": "sps_views_started",
+        "default": "0"
+    },
+    {
+        "key": "sps_crew_rating_access",
+        "default": "all"
+    },
+    {
+        "key": "sps_game_rewards",
+        "default": "{}"
+    },
+    {
+        "key": "mpcs_modular_migration",
+        "default": "0"
+    },
+    {
+        "key": "sps_link_mode_enabled",
+        "default": "1"
+    },
+    {
+        "key": "sps_presentation_renderer",
+        "default": "proxy"
+    },
+    {
+        "key": "sps_proxy_js",
+        "default": "1"
+    },
+    {
+        "key": "sps_proxy_ajax",
+        "default": "1"
+    },
+    {
+        "key": "sps_proxy_secret",
+        "default": ""
+    },
+    {
+        "key": "sps_restrict_domains",
+        "default": "1"
+    },
+    {
+        "key": "sls_modules",
+        "default": "{}"
+    },
+    {
+        "key": "sls_game_bindings",
+        "default": "{}"
+    },
+    {
+        "key": "sls_game_features",
+        "default": "{}"
+    },
+    {
+        "key": "sls_migrated",
+        "default": "0"
+    },
+    {
+        "key": "sps_minecraft_versions",
+        "default": "{}"
+    },
+    {
+        "key": "sps_tag_policy_forums",
+        "default": "{}"
+    },
+    {
+        "key": "sps_tag_sync_cursor",
+        "default": "0"
+    },
+    {
+        "key": "mpcs_feature_hooks",
+        "default": "{}"
+    }
+]

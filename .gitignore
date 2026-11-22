@@ -1,0 +1,30 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+conf_global.php
+constants.php
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+
+# Runtime data and private exports
+/datastore/
+/uploads/
+/logs/
+/backups/
+*.log
+*.sql
+*.sql.gz
+
+# Local tools and output
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+/build/
+/dist/

@@ -1,0 +1,17 @@
+target/
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+*.log
+.DS_Store
+Thumbs.db
+# Lokalna konfiguracja serwera i dziennik odbioru nagród nie należą do repo.
+/config.yml
+/claims.yml
+/claims.yml.tmp
+/plugins/
+.env
+.env.*

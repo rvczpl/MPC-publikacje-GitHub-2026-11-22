@@ -1,0 +1,48 @@
+{
+  "prepared_on": "2026-11-22",
+  "source_kind": "original preserved project, not decompiled",
+  "source_release_directory": "release-mpcforum-beta5/minecraft",
+  "plugin_version": "3.0.0-beta.2",
+  "source_files": [
+    {
+      "path": "pom.xml",
+      "size": 1083,
+      "sha256": "d04797e16d4962861e19e8cea3d2dc7a8eaedd7971fc2f51d23e3070b6c50da9",
+      "modifications": []
+    },
+    {
+      "path": "src/main/java/pl/mpc/sps/ServerRewards.java",
+      "size": 9162,
+      "sha256": "18dcf112359bd529b5b5dbb64ace622df23e26735724c526072683b39239b3e8",
+      "modifications": []
+    },
+    {
+      "path": "src/main/resources/plugin.yml",
+      "size": 325,
+      "sha256": "78451f4b3b4b94cbddada8c0677b2aea805126a6f8a87d6f643293814202e3e6",
+      "modifications": []
+    },
+    {
+      "path": "src/main/resources/config.yml",
+      "size": 504,
+      "sha256": "33f59647a80df39b22f06e92553fd38157972e66e62b4fd474c921768edcd487",
+      "modifications": []
+    }
+  ],
+  "reference_jar": {
+    "path": "releases/MPCforum-3.0.0-beta.2-original.jar",
+    "sha256": "836bd4b58cc5a7502ac0dd9415dd2dae2801b321ce20727012a081eed222fcda",
+    "matches_current_server_export": "2026-11-22",
+    "server_export_path": "applications/mpcservers/interface/downloads/MPCforum.jar"
+  },
+  "added_files": [
+    "README.md",
+    "CHANGELOG.md",
+    ".gitignore",
+    ".gitattributes",
+    "docs/PROVENANCE.md",
+    "docs/VALIDATION.md",
+    "docs/SOURCE-MANIFEST.json",
+    "releases/SHA256SUMS.txt"
+  ]
+}

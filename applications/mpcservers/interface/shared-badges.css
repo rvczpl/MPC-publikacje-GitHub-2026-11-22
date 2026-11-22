@@ -1,0 +1,49 @@
+/* Publication prefix geometry only. Native IPS status badges are not selected. */
+:root { --mpc-badge-width:96px; --mpc-badge-height:22px; --mpc-badge-radius:20px; }
+html body :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award) {
+    box-sizing:border-box!important;
+    display:inline-flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:4px!important;
+    width:max-content!important;
+    min-width:var(--mpc-badge-width)!important;
+    max-width:100%!important;
+    height:var(--mpc-badge-height)!important;
+    min-height:var(--mpc-badge-height)!important;
+    max-height:var(--mpc-badge-height)!important;
+    flex:0 1 auto!important;
+    padding:0 6px!important;
+    border:0!important;
+    border-radius:var(--mpc-badge-radius)!important;
+    font-size:11px!important;
+    font-weight:700!important;
+    line-height:1.2!important;
+    letter-spacing:normal!important;
+    font-variant-numeric:tabular-nums;
+    text-shadow:0 1px 1px rgba(0,0,0,.25);
+    white-space:nowrap!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    vertical-align:middle!important;
+    text-decoration:none!important;
+    box-shadow:none!important;
+    background-image:none!important;
+    margin-block:2px!important;
+}
+html body :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award) > :is(span,.mpc-badge-label) {
+    min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:inherit;font-size:inherit;
+}
+html body :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award) > :is(i,svg) { flex-shrink:0; }
+/* Hidden and rotating labels must remain hidden despite the shared display rule. */
+html body :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award):is([hidden],[data-mpcs-rotation-hidden],[data-mpcwt-prefix-duplicate]) { display:none!important; }
+@media (forced-colors:active) {
+    html body :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award) { border-color:ButtonText!important;box-shadow:none!important; }
+}
+
+
+
+/* Compact Minecraft versions; keep the common baseline height. */
+html body .mpcs-b.mpcs-version { min-width:36px!important; width:max-content!important; }
+/* Server tables use rounded rectangles; topic/forum badges keep their pill shape. */
+html body .sps-server-table :is(.mpcs-b,.sps-recommended,.sps-recommended-title,.sps-top-award) { border-radius:6px!important; }

@@ -1,0 +1,13 @@
+name: MPCforum
+version: 3.0.0-beta.2
+main: pl.mpc.sps.ServerRewards
+api-version: '1.16'
+description: Jednorazowe nagrody za podbicie serwera na forum IPS.
+commands:
+  nagroda:
+    description: Odbierz nagrode za podbicie serwera
+    usage: /nagroda KOD
+    permission: sps.reward
+permissions:
+  sps.reward:
+    default: true

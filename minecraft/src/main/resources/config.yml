@@ -1,0 +1,10 @@
+# Pelny adres forum, wraz z ewentualnym podkatalogiem.
+endpoint: 'https://forum.example.org/index.php?app=mpcservers&module=directory&controller=rewards'
+# ID tematu z prezentacja Minecraft.
+server-id: 0
+# Token i gotowy config.yml: panel Moje serwery na forum -> Minecraft.
+api-key: ''
+# Jedna komenda konsoli, bez poczatkowego /. Uzyj %player% jako nicku.
+reward-command: 'give %player% minecraft:diamond 1'
+# Tylko dla backendu za zabezpieczonym proxy weryfikujacym konta Mojang.
+trusted-proxy: false

@@ -1,0 +1,62 @@
+{
+    "admin": {
+        "servers": {
+            "default_controller": "forums",
+            "protected": false
+        },
+        "owners": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "rankings": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "people": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "metin2": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "minecraft": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "lists": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "highlights": {
+            "default_controller": "settings",
+            "protected": false
+        },
+        "community": {
+            "default_controller": "settings",
+            "protected": false
+        }
+    },
+    "front": {
+        "directory": {
+            "default_controller": "browse",
+            "protected": false
+        },
+        "owners": {
+            "default_controller": "panel",
+            "protected": false
+        },
+        "rankings": {
+            "default_controller": "browse",
+            "protected": false
+        },
+        "people": {
+            "default_controller": "browse",
+            "protected": false
+        },
+        "highlights": {
+            "default_controller": "browse",
+            "protected": false
+        }
+    }
+}

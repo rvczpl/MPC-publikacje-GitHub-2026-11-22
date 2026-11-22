@@ -1,0 +1,1632 @@
+{
+  "date": "2026-11-22",
+  "application": "6.1.8.5",
+  "minecraft": "3.0.0-beta.2",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 263,
+      "sha256": "7ada049bd5f7efc6732cf37099f79f031e05ae2ec9f8862e5113deb12a018c5d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 353,
+      "sha256": "3bcb7337f554cf4c05cad41ef79438539ff9ee39b78a5d30922eee53adb2f501"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 172,
+      "sha256": "a8716615a4b93d8ef4b9feae1aa685157e484dfe34d7e871396e9d51dc4c3583"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 354,
+      "sha256": "6e47df3ab38832a8d1f265fed359bbb584ea3105b8529b48465e9f64ca681440"
+    },
+    {
+      "path": "applications/mpcservers/Application.php",
+      "bytes": 1234,
+      "sha256": "1d982c6287d44aafba94cb1fe0d2bae77a31915b44c4c1d3750b9816f45b7460"
+    },
+    {
+      "path": "applications/mpcservers/BADGE.md",
+      "bytes": 773,
+      "sha256": "dcbd8e6c173b896f3c4ded37cd0ec3b3cc56e4c54dba7dc52864794febc90455"
+    },
+    {
+      "path": "applications/mpcservers/CHANGELOG.md",
+      "bytes": 9025,
+      "sha256": "336d57be7e2a04fafbe55d1c34b2bd6c6d0d1e1b3a07cf204155ad0c4472959e"
+    },
+    {
+      "path": "applications/mpcservers/data/acpmenu.json",
+      "bytes": 2629,
+      "sha256": "9f7128003ca740ef0d697696202f2501005239581c5bbc141618cb20ef530950"
+    },
+    {
+      "path": "applications/mpcservers/data/acprestrictions.json",
+      "bytes": 656,
+      "sha256": "32bc96640dead21634d76cae8c836af4023ed776ffd578f8ee0e0ee9c422ffb4"
+    },
+    {
+      "path": "applications/mpcservers/data/acpsearch.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/data/application.json",
+      "bytes": 215,
+      "sha256": "1c28ea13893261acee94755aade23c402bd96415e978817964c58a0fd71f0d96"
+    },
+    {
+      "path": "applications/mpcservers/data/customtemplates.json",
+      "bytes": 1093,
+      "sha256": "767ad01d8ec0b576b71e7065992eb92175abd1ce74b164b459117ee348c11781"
+    },
+    {
+      "path": "applications/mpcservers/data/emails.xml",
+      "bytes": 66,
+      "sha256": "a84dbba4ab3f63bc3277db6c880b782d874399f2194dc5ddd6b3c34575308827"
+    },
+    {
+      "path": "applications/mpcservers/data/extensions.json",
+      "bytes": 585,
+      "sha256": "5044d54fb607e5ca6d7e4a227bfc1f1268fb173bf170ed0d8a603c9aadf98f79"
+    },
+    {
+      "path": "applications/mpcservers/data/javascript.xml",
+      "bytes": 70,
+      "sha256": "f014b9f133270282bff780416207af989398a420cdf618dca0871d42f1689768"
+    },
+    {
+      "path": "applications/mpcservers/data/lang.xml",
+      "bytes": 29972,
+      "sha256": "6cfbaa61f01c08596ce522028af3fbace72f4095068e0d1b1d1c8878e67cacd5"
+    },
+    {
+      "path": "applications/mpcservers/data/listeners.json",
+      "bytes": 341,
+      "sha256": "95858ef0b1586b160e9445276b22490b0464ccad30fc587c3a7299d4c5534bf8"
+    },
+    {
+      "path": "applications/mpcservers/data/modules.json",
+      "bytes": 1627,
+      "sha256": "53b85dce86737cb1a7959750736d8b4d4484f4ce74a33188b10e715c67c24969"
+    },
+    {
+      "path": "applications/mpcservers/data/schema.json",
+      "bytes": 68411,
+      "sha256": "6015a501452323a1637d11bd74ad4194c13fcb4f46192bfad96b094e8ca8fda0"
+    },
+    {
+      "path": "applications/mpcservers/data/settings.json",
+      "bytes": 3332,
+      "sha256": "3143b121ad08f5e50bbeadcd8b668f7f772e949dd135fbe98eb3667146f1d12d"
+    },
+    {
+      "path": "applications/mpcservers/data/tasks.json",
+      "bytes": 46,
+      "sha256": "2a204d2c66a0c0da6b4ecacddcd197f2d1d3e3ec109e63d3aefbb9ba6dafea2e"
+    },
+    {
+      "path": "applications/mpcservers/data/theme.xml",
+      "bytes": 127,
+      "sha256": "d1e6600b5e299f5b54187bd383e2d810454a980452a750cf4a8696305ecce642"
+    },
+    {
+      "path": "applications/mpcservers/data/versions.json",
+      "bytes": 1369,
+      "sha256": "c30b7ec3a77e547a2578bdff10a29e3467d7cad6e76a6a1a78a26b5691c6231c"
+    },
+    {
+      "path": "applications/mpcservers/data/widgets.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/extensions/core/FileStorage/Graphics.php",
+      "bytes": 1220,
+      "sha256": "c035514dd1d6c5ee4dd051036d442017c85fac66fdf93b5f404122edf3d9d607"
+    },
+    {
+      "path": "applications/mpcservers/extensions/core/Loader/Servers.php",
+      "bytes": 5453,
+      "sha256": "d66ff846c65bd722a8f3f807b719a2b1358477bf448597856fc63edb1bf6897a"
+    },
+    {
+      "path": "applications/mpcservers/extensions/core/Profile/Servers.php",
+      "bytes": 472,
+      "sha256": "e84bba08ab629488f03070dfa35b707f0f5b2902c3aab47025bb8e569cd8ef1c"
+    },
+    {
+      "path": "applications/mpcservers/extensions/core/UIItem/TopicForm.php",
+      "bytes": 7287,
+      "sha256": "1aef018b74fbcc7c26495a5fddfffe6540f3ec8d1e56351aaa104f0fbef40668"
+    },
+    {
+      "path": "applications/mpcservers/extensions/core/UserMenu/OwnerPanel.php",
+      "bytes": 1026,
+      "sha256": "7eede5c3ba2ec749f858a7d226190d6d4b5a43d0d68ec783c6fe82be68b7c3e8"
+    },
+    {
+      "path": "applications/mpcservers/interface/badges.css",
+      "bytes": 923,
+      "sha256": "99861cbd7577269404e95639cc8162954d56b69b05f106fb20e5723fc4d7cc19"
+    },
+    {
+      "path": "applications/mpcservers/interface/downloads/MPCforum.jar",
+      "bytes": 7847,
+      "sha256": "836bd4b58cc5a7502ac0dd9415dd2dae2801b321ce20727012a081eed222fcda"
+    },
+    {
+      "path": "applications/mpcservers/interface/list-prefixes.js",
+      "bytes": 2544,
+      "sha256": "b68f5cc878aaba65794a9eec0da6c8f69920dab48c3d9863cca7ce2f35aea99f"
+    },
+    {
+      "path": "applications/mpcservers/interface/prefix-rotation.js",
+      "bytes": 3114,
+      "sha256": "50f89da040583db802fe69b0c681d1334aa60ba0f90daebb9e6d9364f1b882bb"
+    },
+    {
+      "path": "applications/mpcservers/interface/proxy-bridge.js",
+      "bytes": 10383,
+      "sha256": "70032e27dd91dfe6064688cd5c0ee5502568e53a937c4f58c6fd66480288d12f"
+    },
+    {
+      "path": "applications/mpcservers/interface/publication-tags.css",
+      "bytes": 125,
+      "sha256": "31f9d8a6821052f39b4a082a997a3d6d0face4f49150e596e7572a089f72df4a"
+    },
+    {
+      "path": "applications/mpcservers/interface/shared-badges.css",
+      "bytes": 2511,
+      "sha256": "66691e8b926d1430ade60eaa6e8934bc71163fd1b2ecbb5f2bb602c3404ce197"
+    },
+    {
+      "path": "applications/mpcservers/interface/shared-badges.js",
+      "bytes": 1298,
+      "sha256": "f65c3aa02e249bef8a4108eef8fed38fbd750acd70abdfe636305c887b92aad5"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/cs.jpg",
+      "bytes": 302023,
+      "sha256": "0cdf6cb3720725e0d67d22625e57fac422f56e5e7ef3491b676d43ab99384987"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/easy.jpg",
+      "bytes": 432358,
+      "sha256": "d5924d34e45bb38e7731d442175e91d37acd510ea3d048743fd3f75d54051f3e"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/hard.jpg",
+      "bytes": 280656,
+      "sha256": "9cd0cc36cbbda8d7f5195d14bca39f803e7f8216ac31ccde0dfe160f42941e93"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/medium.jpg",
+      "bytes": 309101,
+      "sha256": "bc11d413fa71bf2598911b77e13896faa3e0b895eafa3e84c46621608b9777d0"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/minecraft.jpg",
+      "bytes": 405358,
+      "sha256": "6c6afe4427e79c91b8e4ed4f6f967e67fa124cd1361e9355dfa6dd7985b852a9"
+    },
+    {
+      "path": "applications/mpcservers/interface/tiles/other.jpg",
+      "bytes": 326785,
+      "sha256": "d4d9fe29b668a1c84fbc84247805729735e95da83c45e7a19e8d68f842074c54"
+    },
+    {
+      "path": "applications/mpcservers/interface/topic-feed.js",
+      "bytes": 2549,
+      "sha256": "1a6a17f23b93608805fe5e9055f51b076b736361bff06d6255ec8f146f2b9652"
+    },
+    {
+      "path": "applications/mpcservers/interface/topic-title.js",
+      "bytes": 3607,
+      "sha256": "f761ecc3292792bfc4352bccfad3e398272697cc07298b9da3ce85b6236a7859"
+    },
+    {
+      "path": "applications/mpcservers/listeners/PostTags.php",
+      "bytes": 1034,
+      "sha256": "d7ce7e79040ad6dd02b99302d04d2efd7d5724ea59c0fe68d7cc3438ec71dff2"
+    },
+    {
+      "path": "applications/mpcservers/listeners/TopicView.php",
+      "bytes": 2085,
+      "sha256": "4edc5f9159bac43b89866c93b55e7dc3707e3956ebabfb82b298ba94d9a78d3c"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/community/identities.php",
+      "bytes": 182,
+      "sha256": "9f213fd5a0ab9b80eada76c8d0f1431a2e449d7b397bf04a7efa71517173b417"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/community/settings.php",
+      "bytes": 486,
+      "sha256": "c873b5a85ecc8f67cd56a53b03ac3bb204689434a0aa8e9f76eed874e424c567"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/highlights/recommended.php",
+      "bytes": 183,
+      "sha256": "726364ef656ee0ba31fe9cf702ca15f113ae6c1b8a32287eafc5e9f11eecb787"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/highlights/settings.php",
+      "bytes": 479,
+      "sha256": "739f8d865fb636d2c9c007d5eaee63dc4e98c5a681c6b960aed86e3832a7616f"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/lists/log.php",
+      "bytes": 165,
+      "sha256": "fd21b66c1557d4b2b51d0a3904eb6620519e23a5fc3dfb9c6e94e11c7a49c2d8"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/lists/options.php",
+      "bytes": 174,
+      "sha256": "772d907c384d0210e50830844aeaff7708cb0b03f4a8bf372ba5a25419bf33f6"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/lists/settings.php",
+      "bytes": 455,
+      "sha256": "97664ff6e6bf1446484d127ce4e91ea31619a87cc3d92665a71f8ea1e0c8a8db"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/metin2/advanced.php",
+      "bytes": 176,
+      "sha256": "e7171a267e9a56ce89aef76da4e409d08fc13e179cce6a6a9597e95fd70ea0cf"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/metin2/publications.php",
+      "bytes": 178,
+      "sha256": "925dc89d5baf9411e88e9d5bafa4dd33bac01743635d950f55218b5243b6aadb"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/metin2/settings.php",
+      "bytes": 449,
+      "sha256": "0b3446bf15e4e21bae118cb38e42ab1735c8f446c863d88e9b595657437dc5dc"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/minecraft/publications.php",
+      "bytes": 181,
+      "sha256": "163b3961bf66850afce9a571e3c9510c6a5b6ff88425d06a19971188a4864de2"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/minecraft/settings.php",
+      "bytes": 461,
+      "sha256": "858cc21fa3d639c9aca5ea7d0d2d0bd800f2fdb36c6450742271814d60a274d1"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/owners/settings.php",
+      "bytes": 509,
+      "sha256": "362f1c2130c93c707ae95db262361056e02fc198a6127c11e4b24424c957db68"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/people/identities.php",
+      "bytes": 3468,
+      "sha256": "39869abfbcb05f9315872f94a983efdf43b1af5290e9bdec628e5bb44fc2894c"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/people/settings.php",
+      "bytes": 509,
+      "sha256": "3a5a600d355264ec7182aef5010163ba82d30b34a06643b2de3a3db3dbf628f6"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/rankings/settings.php",
+      "bytes": 517,
+      "sha256": "699317e6bdd842512b5e758d4a420118b35ad63d5fd40544e3fcf51fe97717cf"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/advanced.php",
+      "bytes": 1761,
+      "sha256": "7f31d99b6a5a442e4b7271ef0ce4dcee0e42aabf287af268d7e67951fe2c8585"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/featured.php",
+      "bytes": 3741,
+      "sha256": "9a6fa5b85d530b59bf0c1921e732560204c4b7cefbdc12dbc87113ab38250e12"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/forums.php",
+      "bytes": 21896,
+      "sha256": "e4737f97ca7e8fcd3d7a401a039b90e771083ee97a16e2f281fc04510bf5ba7e"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/log.php",
+      "bytes": 2605,
+      "sha256": "fb3892b2e29f4519645e40b53c046f29a39b81a11b51b667ba45f93f1f6276db"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/people.php",
+      "bytes": 176,
+      "sha256": "5b2a7e112ffc20c0fa55e3a8a60fc8700a3c8b2b238fe7e70204f73e762cc0c7"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/presentation.php",
+      "bytes": 390,
+      "sha256": "2d15705e037d38b390c985e3533adf95734930cf9c4f9374211d41a0ac286613"
+    },
+    {
+      "path": "applications/mpcservers/modules/admin/servers/settings.php",
+      "bytes": 4708,
+      "sha256": "abcc8c5127484eeec866a6d4f7b570327e1a0c0e48d30f4ff7f8e08dd512a17b"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/browse.php",
+      "bytes": 5092,
+      "sha256": "6ad00da8134b1a747cacad99f06bd373dccecae00e5e5468d42ebaaa52682f72"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/owners.php",
+      "bytes": 256,
+      "sha256": "a9cf689f48f45e1198571f797f33a169ecbcdfe8cd7f325f6d65af79026f554a"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/people.php",
+      "bytes": 257,
+      "sha256": "edd3b8176885ebb07bda1f516c50da7e8464d3d8066f436a63010e7a7046010b"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/proxy.php",
+      "bytes": 3714,
+      "sha256": "65e48ab7fd10dc3b26e3af93fbaff547ffc66b76a88266aa5abc76b3f4922e4f"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/proxyajax.php",
+      "bytes": 3532,
+      "sha256": "f56f8ae6d32d8323e38e979df2d7cad0f4958ab957c1bd13c2d57c76baa09b5d"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/rankings.php",
+      "bytes": 367,
+      "sha256": "c40a6d4c994d5841cd9527b174795be6f3af8f7c0508141be3e24c0dbcc0050a"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/directory/rewards.php",
+      "bytes": 259,
+      "sha256": "1493066b4343102cc33b88d1581ea99e3326b2da8154212a449fd10c1e3f7bc9"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/highlights/browse.php",
+      "bytes": 2158,
+      "sha256": "44e6f181dd199d345fb8c7a4a91d916f0d45fc2bcc7aaac0ce364a89332bff3d"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/owners/panel.php",
+      "bytes": 4129,
+      "sha256": "912010ddc63fde99d8247cce88260bd5654cfc3c85bb17bd4fbee56be1d05e75"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/owners/rewards.php",
+      "bytes": 763,
+      "sha256": "1de0ae5fb251897e06a837945ad4f7771b99e4d310d08987d9f143b9ce09d495"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/people/browse.php",
+      "bytes": 5342,
+      "sha256": "5b1ea781b9ead789d8f967edf14f5f5300955f65922a103f1f4a52c3bfe29e9c"
+    },
+    {
+      "path": "applications/mpcservers/modules/front/rankings/browse.php",
+      "bytes": 364,
+      "sha256": "0798d8bde467ee5b45266b99dce5cdf47e70dacf129b1f5501ada979eb636d69"
+    },
+    {
+      "path": "applications/mpcservers/README-6.1.8.1.md",
+      "bytes": 8915,
+      "sha256": "6777efa53f01dbf4cb908c9dbc7c3c295622e6d399066b8625e2e168f2f23751"
+    },
+    {
+      "path": "applications/mpcservers/README-6.1.8.md",
+      "bytes": 7811,
+      "sha256": "0ff11a41e19b0082825118d9e9f2d0b81eabbdbf8a826ae45d97a379fb30900c"
+    },
+    {
+      "path": "applications/mpcservers/README.md",
+      "bytes": 16216,
+      "sha256": "4ac5c76c97e2685b5c53da72d96c19ac8b0b8aabb45ad3e1bdfcbc3178468a55"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_20000/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30000/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30000/upgrade.php",
+      "bytes": 463,
+      "sha256": "499259e6f532a4ca528d4d6bd132c0dda5f447dbb7ba1ec7ccf52435700ba83a"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30001/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30002/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30002/upgrade.php",
+      "bytes": 1720,
+      "sha256": "31717e4adc60888abeee8bea428c19f6b5fc9526af0d730f199ad1594b25887d"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30003/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30004/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30004/upgrade.php",
+      "bytes": 458,
+      "sha256": "ea6c423ee1d7dccdebd3f57b8134ad834924dc53030b388fb1dd309050ffa1bc"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30005/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30006/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30007/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30007/upgrade.php",
+      "bytes": 186,
+      "sha256": "60279b1c1c4b8a4573404390ca2aa4421a6cb3fddbdcb42607a09bda9e6210de"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30008/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30008/upgrade.php",
+      "bytes": 194,
+      "sha256": "1c6f97119b95675ced79545285b007a7002cab34ccc74b511a9b7bdca45fc75b"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30009/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30009/upgrade.php",
+      "bytes": 190,
+      "sha256": "c4b17ce7d99a61e57f1eb842a366c001931b38906ca1d602f82875ec02e8c908"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30010/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30010/upgrade.php",
+      "bytes": 188,
+      "sha256": "22f8487bbbfa8e12389ec08d0615b581e2d3c600f6f4e710efa82ccce52a7046"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30011/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30011/upgrade.php",
+      "bytes": 190,
+      "sha256": "acde494e1e4858d13906bd7f7572638a1b240b4d0edf4f412192fa579cbb8050"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30012/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30012/upgrade.php",
+      "bytes": 154,
+      "sha256": "82561d6b38e9f80cf86bd0750cac8467ceabfab94898956ce14335b3648f3907"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30013/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30013/upgrade.php",
+      "bytes": 154,
+      "sha256": "c1bf6fd29d69e070233da0111d891138779e1095702d673765c672c1bedb8b7e"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30014/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_30014/upgrade.php",
+      "bytes": 154,
+      "sha256": "bd18bb38f196f6e8c0aaebcbb5c671a20547fd4d9ebd0625364658f7549237ca"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40000/queries.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40000/upgrade.php",
+      "bytes": 193,
+      "sha256": "c4fcac49afd9ab92166a199768874749ff76c2a74646177f2368f23bde2497ef"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40001/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40001/upgrade.php",
+      "bytes": 154,
+      "sha256": "c4e746a5abd66c2a3a14ee22c91d6b06de58e43d9ca12dc47ec7f64bc31f9506"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40002/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40002/upgrade.php",
+      "bytes": 154,
+      "sha256": "f29065ac38ab92d6e199d92df3151bad0545e711ad2caaf53f2b27d024c7cdfd"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40003/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40003/upgrade.php",
+      "bytes": 154,
+      "sha256": "ff563ad904091dff04a7f31f0da6ec00a88ad7a764dfd295f7f8cf3d3645d8a9"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40004/queries.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40004/upgrade.php",
+      "bytes": 154,
+      "sha256": "157b024ef653f6d141d804d1a90c7bd0858a3356677c64a4a9e704f15df60ba8"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40100/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40100/upgrade.php",
+      "bytes": 154,
+      "sha256": "c849ae75817cd79b3f63c513be4936a1b72c93f46b437ae78657cb5b229bdf13"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40101/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40101/upgrade.php",
+      "bytes": 154,
+      "sha256": "160ff3018fcfc92a7e3781cd40050e674ac52e2ab59cd84c61b482468ae521d5"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40200/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40200/upgrade.php",
+      "bytes": 196,
+      "sha256": "8698eb521a7f31598d89b2ec36b9eb310e1f93c98621f6b42eb80175263f8c99"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40201/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40201/upgrade.php",
+      "bytes": 154,
+      "sha256": "14151b19e1dd5e688efb0ec53cd79c51609857f883e5791d1207f2800c8aee67"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40202/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40202/upgrade.php",
+      "bytes": 154,
+      "sha256": "fc17f1c8c2eb12396610988a95a83c04181902916d9754b8120a18797a917d01"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40203/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40203/upgrade.php",
+      "bytes": 264,
+      "sha256": "1659699651659daa9bdc3d16d560e0ab2737ca0b71d0c2024e3a08021fdd5061"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40204/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40204/upgrade.php",
+      "bytes": 154,
+      "sha256": "89ad5d936b3499ad590a2f3bb1e07f0c92bb465cfa98d42e8478ff0c2dd2add9"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40205/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_40205/upgrade.php",
+      "bytes": 154,
+      "sha256": "29f4c7c7559c6d27fdde7e73de2e3b0d9d532d0fc0bc5c49c4f0ab822b8ecc27"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_50000/upgrade.php",
+      "bytes": 203,
+      "sha256": "eaee7edab2da25db9e6a6dca93e0dafc497724f71610a27d2a2230950dd1e629"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60000/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60000/upgrade.php",
+      "bytes": 1400,
+      "sha256": "1517c60dbcd8e6fd1bae0920dfe7592cb6306da895d1b88c45787a85293d34a1"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60001/queries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60002/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60003/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60004/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60004/upgrade.php",
+      "bytes": 623,
+      "sha256": "5f23842ce5c5c5ea5573c0b84f64262bc5aa625d122a8e39e40be23d8a8f06b6"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60005/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60006/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60007/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60008/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60008/upgrade.php",
+      "bytes": 882,
+      "sha256": "fec58af362b6a7131ec6efffa338df5c672a57be54b2c9d6ccf1f240cee35885"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60009/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60010/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60100/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60101/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60102/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60103/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60104/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60105/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60106/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60107/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60108/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60108/upgrade.php",
+      "bytes": 227,
+      "sha256": "44d7c96ba88862a4000ecefccdaa6cd1ce5c522ab8c129f4bda4f3f5fd61432f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60109/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60109/upgrade.php",
+      "bytes": 227,
+      "sha256": "499593085bf0a19ea8c3fc020d774d1067a3b7c0ddd898bf36f7b03a8d0622db"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60110/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60110/upgrade.php",
+      "bytes": 167,
+      "sha256": "af439ca15faaaab1ad59321201635b6aed11009c193f23d67d83d22dba67a291"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60111/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60111/upgrade.php",
+      "bytes": 167,
+      "sha256": "1368ec950f74a98ebf07c248cc6f7acdeeaaf92efa7a95f357cd8a5b91d893c0"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60112/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60112/upgrade.php",
+      "bytes": 167,
+      "sha256": "0dd44ea5b8823a0faf69c994178d3736993c2cf7894b283331abfc161145f14e"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60113/queries.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "applications/mpcservers/setup/upg_60113/upgrade.php",
+      "bytes": 167,
+      "sha256": "13bae800afe8ea9d9b05c6c5498b0a181ba1a4f8a4e5d0351c535b77d7c13bcc"
+    },
+    {
+      "path": "applications/mpcservers/sources/Archive/Archive.php",
+      "bytes": 237,
+      "sha256": "e1ad15862672512fd6bcb845eeb59a8c88fc4fff71d0a31a82acc1be89e39c8e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Awards/Awards.php",
+      "bytes": 245,
+      "sha256": "73d009895de849f592ee7868444e70d23d4dd69a8d31aa2da4673fbda9d07a4d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Boost/Boost.php",
+      "bytes": 238,
+      "sha256": "67bdf3a725a8c3e226a7ce3369fdc5ee784689906d5f2f267a26f65ff2cc2442"
+    },
+    {
+      "path": "applications/mpcservers/sources/Crew/Crew.php",
+      "bytes": 238,
+      "sha256": "c0814fc14d9609aafc6b84881e3762b779f4fac12eb2cacfe4d55cae36dfd0fb"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewDirectory/CrewDirectory.php",
+      "bytes": 256,
+      "sha256": "283598ff48c48c5c5559bdcfd5ccc43f8b7f17ad89ee8a64cda838e72c2b7f1e"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewForm/CrewForm.php",
+      "bytes": 246,
+      "sha256": "bb5748573b4ac56abfbf3e8494e1f880d93e4faccaa091d424fe332bdbfa2f16"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewIdentity/CrewIdentity.php",
+      "bytes": 254,
+      "sha256": "4618a3ddf1c066a1ed0ec084a66b0fb7902dbf2949a7f41e2f8133a422505ef0"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewLock/CrewLock.php",
+      "bytes": 246,
+      "sha256": "ec37fe8e247dca57173a783bd84bc0f28e74ee69a43d0b79bbd9b76c09dbfd48"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewProfile/CrewProfile.php",
+      "bytes": 252,
+      "sha256": "8463fb9ef6157135084976f23baf5f9c0476adbd2bf35f68fdf0ce206fe429fc"
+    },
+    {
+      "path": "applications/mpcservers/sources/CrewRating/CrewRating.php",
+      "bytes": 250,
+      "sha256": "de3f72f70231b88fed818fd87a55323bd4a3330a70503249c9aaa7724a30d65c"
+    },
+    {
+      "path": "applications/mpcservers/sources/Directory/Directory.php",
+      "bytes": 247,
+      "sha256": "7055dd7b016b79c2846ee044ff86b9083474aa4607b950d3d6156bba109f83a6"
+    },
+    {
+      "path": "applications/mpcservers/sources/GameNames/GameNames.php",
+      "bytes": 241,
+      "sha256": "130dc0414c7b82f597e886579f34ee775fa32dbab8b1ba8b864568a03d09e920"
+    },
+    {
+      "path": "applications/mpcservers/sources/GameRewards/GameRewards.php",
+      "bytes": 252,
+      "sha256": "d8bcbfa8dc7c8ebf9ddec9762ad63acc2407ca6be23ab8da2d6a5de2e7859652"
+    },
+    {
+      "path": "applications/mpcservers/sources/Highlights/Highlights.php",
+      "bytes": 253,
+      "sha256": "f2e0ec20d39e15638fa8fddda462f602ef31c95484e17edf59573c8fdc7d8963"
+    },
+    {
+      "path": "applications/mpcservers/sources/Listing/Listing.php",
+      "bytes": 237,
+      "sha256": "7f08684559bca365f5afd9f2ac5f02863f351974ae4414b25dc6ec446a292961"
+    },
+    {
+      "path": "applications/mpcservers/sources/Media/Media.php",
+      "bytes": 233,
+      "sha256": "3d8506a10cbfda70af7d76778a5eddc7bcb5ccfc6db9d63d5ab8c50fc2c81c2b"
+    },
+    {
+      "path": "applications/mpcservers/sources/ModeFilters/ModeFilters.php",
+      "bytes": 251,
+      "sha256": "b71439637a184cb0221db0d7745c78916f756c0c38c5093b0a4349e90a3fc3a5"
+    },
+    {
+      "path": "applications/mpcservers/sources/ModuleAccess/ModuleAccess.php",
+      "bytes": 247,
+      "sha256": "87f30675230264814bb4b8dfc474775eba726558afb2cca0769a17458e1ac3eb"
+    },
+    {
+      "path": "applications/mpcservers/sources/ModuleAdmin/ModuleAdmin.php",
+      "bytes": 245,
+      "sha256": "2a64ec9e97e7733cf5430fca9356ba48dc6457fc132377202cd8a36c9f6969a2"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/Crew.php",
+      "bytes": 12833,
+      "sha256": "98706eadc188db97bebb5c28d44bfff3e1dc1efb835ec152f2464ac965632519"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewDirectory.php",
+      "bytes": 11086,
+      "sha256": "41d570337c960bf13b6ddf639226cd15fe59db4922b04f84bb9981c7656ccd5c"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewForm.php",
+      "bytes": 12772,
+      "sha256": "e3e55db2a4440e0e51382caa77eeb6c70f6c4e18b55316daab7d335bee997729"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewIdentity.php",
+      "bytes": 2984,
+      "sha256": "e2b7c8d38f8e0c62211d6d1e43ccc0e6b127a3495e5a2d4c403b11a3186503b0"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewLock.php",
+      "bytes": 3296,
+      "sha256": "403a36df3c6f98d1932df1907bf2dba706970914d64427bb3c817cf62c2e9ce6"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewProfile.php",
+      "bytes": 3798,
+      "sha256": "87a2ac6fe58bdc8c8fee0e55ba8ad91a2e348adc4074c340f68dc79b2822f665"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/CrewRating.php",
+      "bytes": 2436,
+      "sha256": "f86fc00a28ce9fb61fbf13f727fc452212598d73a4654ce27e5e3a1b18305ea5"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/Owner.php",
+      "bytes": 14896,
+      "sha256": "8b04c8762bffa84c15b9829ecb84c401c330e05a0c4f96f65757a1add460fd4e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/OwnerAccess.php",
+      "bytes": 1374,
+      "sha256": "c685bda873e4fb80861f5ec41bc4e6dcad517b431cc1e84f869c0e8513e8feef"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/OwnerStats.php",
+      "bytes": 6849,
+      "sha256": "52703a62cc2ea8c7c1a9e9d4b113d26f432d56012dfb26958a48b5587ed130d8"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/README.md",
+      "bytes": 1551,
+      "sha256": "e34e574548d2ced99e5ae96ce678189eca4027b3a31ded4765c6650b6068f68f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Community/TopicViews.php",
+      "bytes": 3287,
+      "sha256": "45d170dba94022c0f61de14f1bd46d69f868e59ef07abe9fca36b6073726595b"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Archive.php",
+      "bytes": 18225,
+      "sha256": "6f62b1568b1822c51171540ed3cc616ce07759d306d83a150864aa8d570a7907"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/BackgroundJobs.php",
+      "bytes": 3108,
+      "sha256": "5c9625114ad613a815c1b31d1604ad4edb268756666bd3d660895c955b227154"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/FeatureHooks.php",
+      "bytes": 2145,
+      "sha256": "fb28697e5b83844cf8129175ab92f446a258aec70a01cb5822f27ce80418e179"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/GameNames.php",
+      "bytes": 1013,
+      "sha256": "409fffc4e3ba88ff95ebea39af6c3571634a558fbbcc0e2f31317058525b83f4"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Listing.php",
+      "bytes": 26982,
+      "sha256": "1b3bf04678e8817f710a6082ee8e76730477aaa338b5e47b5aeac8cd0efb05e8"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Media.php",
+      "bytes": 2377,
+      "sha256": "8b340ca588b07c9708c65cd655dc926120fc0a793936d7728df25a928db35adf"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/ModuleAccess.php",
+      "bytes": 683,
+      "sha256": "217ec88176fb8de6822ef4fadc474a4dc4e5fab628270686cd2eac1e23effb33"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/ModuleAdmin.php",
+      "bytes": 3076,
+      "sha256": "ef1a25f47eb59c7904e90c7a4cf01ac71ffaa4361d1fd0b09c4265fa85247611"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/ModuleSettings.php",
+      "bytes": 4365,
+      "sha256": "334b54ad57d3bf0873f55ce5f6839818d7ba069dd588e28915e6c9e799c305ab"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/OrdinaryTopic.php",
+      "bytes": 3251,
+      "sha256": "c9558ee3243d1a72ace4436e4b6687556c4ef924a94fafa4e10e9c53fa0b599d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/PrefixBadge.php",
+      "bytes": 965,
+      "sha256": "115c219b1317bb35e434d77cec806cc5908fb02368f28f51d04b7e6c1b1674e5"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Presentation.php",
+      "bytes": 15214,
+      "sha256": "100936cf53eb3e9cd9a7c719216b75b3f22bc83a5a58dd98b49b9eed619fec33"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/PresentationView.php",
+      "bytes": 14128,
+      "sha256": "724df242392a94068d066c1d776b95c03bc8e3a72598a34aebffbf847badac42"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/PublicationTags.php",
+      "bytes": 2572,
+      "sha256": "c5340fcaff6f371362cfe3c633ce651192896b6b66d280a195aa816ca81a5c02"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/README.md",
+      "bytes": 1575,
+      "sha256": "c8e23d54bdb3b9ac1e4e36a92eab0bda318ae848aaeaf7f3623dd5fbbab3863b"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Registry.php",
+      "bytes": 4004,
+      "sha256": "1b0d28499eafbd7d8517fd5178c825050dd8f2ccf538e03ce2119a1284f8cdce"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/ServerModes.php",
+      "bytes": 3785,
+      "sha256": "ca5b5c85764703e552c5266612414ea3f8a1268a4b256c33940c4a7b66858ca7"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/Servers.php",
+      "bytes": 64689,
+      "sha256": "c2ea7dd8636cdaa5af08bc80a250b5138af8b1f76543dc38a4ab922ea30e6389"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/StatusMonitor.php",
+      "bytes": 1940,
+      "sha256": "1ed4837b7b0a097c1c9099bb9a5916e69b02b7148d30ec56599ced9f5f427cca"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/SystemMigration.php",
+      "bytes": 1578,
+      "sha256": "49afe093c9ae4b5543754ded3d74343a0ab00313cef875b67ff481c60030a42f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/TagLinks.php",
+      "bytes": 5258,
+      "sha256": "a59ef8069fb498f2ebfa22f0618c98272ee712092482a7fda58e5bfdc52328ad"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/TagQueue.php",
+      "bytes": 375,
+      "sha256": "b51b8a5d57ea8156e474e170b01ac8f9657352bdfb68aebc2ef34814301181dd"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/TemplateHooks.php",
+      "bytes": 2245,
+      "sha256": "5073947704d5cd301a2dd2df98dd491e7bc0671eed0de075792e1b06aadf154a"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Core/TopicForm.php",
+      "bytes": 12712,
+      "sha256": "94854ece2b6bef4937e2a9ed6b379079ffb63caf4dc69aba24f1998f5e01f112"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/Directory.php",
+      "bytes": 241,
+      "sha256": "71750bad299eb13b5a98ce2a2220b595decd93fe20c3efb1913b8428e8508be8"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/ModeFilters.php",
+      "bytes": 245,
+      "sha256": "a4a0927e892fa5cd2fa957981cfa7fc10976c6d602926e5f6fc9133d993da21f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/OrdinaryTopic.php",
+      "bytes": 248,
+      "sha256": "b06a98542f0e6ee490dffe80a851b609392a8016062213994b1db05112a98f30"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/Presentation.php",
+      "bytes": 246,
+      "sha256": "824acf81efeb8eec028106a708550622877ba583208d02a1e3475110f29f577f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/PresentationProxy.php",
+      "bytes": 258,
+      "sha256": "976b65a88208a414b08c7199df10ebb56d1a58fb21d5724cf8b0dcc4b54fdd56"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/PresentationView.php",
+      "bytes": 254,
+      "sha256": "08ff5469f01ec72de98edf9396cf4caa112f442371aec087c44248f1c53c5d11"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/ProxyAjax.php",
+      "bytes": 242,
+      "sha256": "507e7b686706afc43f2735055566167da6973c28170da4392b430c08f0a13a6e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/ProxyAssets.php",
+      "bytes": 246,
+      "sha256": "0ecacf532213b6432b42b7e180807a28ea76aedccb0abf6afba044b85f4e8697"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/ProxySecret.php",
+      "bytes": 246,
+      "sha256": "c5b93962444b8136d21af723f0343c00a45f4317d03a0bf530000c73488e75bb"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/README.md",
+      "bytes": 134,
+      "sha256": "0c658e37b7e1e21e735fe4c0b484deb0b897c1d0dcf9cc9e6f732247af86b525"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/Recommended.php",
+      "bytes": 250,
+      "sha256": "5042550bc14d6d2173f3baf171b985db6375590b20c4cbfd7e05ee3278821ece"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/Status.php",
+      "bytes": 235,
+      "sha256": "c1817cdb278689d70eef18c16e54f95948f1059f3b6330c384f7d2758f96953a"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/TopicForm.php",
+      "bytes": 240,
+      "sha256": "cb10991a2cff5a24649af8406ceac5d5726a45d7e794812cebfffeb5d306f368"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/TopicPreview.php",
+      "bytes": 247,
+      "sha256": "c2e1a26777d16bc6cc8f674a82c7104306c0ce92a9cce9bfb8df875873723500"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Directory/TopicSeo.php",
+      "bytes": 239,
+      "sha256": "5aa0bb95680ef11b0481b37e3a26b5232e67511986ab4dcb8dee0b8bf2a9670c"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Highlights/Awards.php",
+      "bytes": 7375,
+      "sha256": "7f7a1b99a29aa3a2ec251c8e1ed6c8bb0241c2e4ea8c1980e1d45bceaf2721bd"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Highlights/Highlights.php",
+      "bytes": 8077,
+      "sha256": "b4f3cd64f7290be22399b895672c5e97403a1f3a524ca2b4bfa400f7548d13ea"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Highlights/Rankings.php",
+      "bytes": 3193,
+      "sha256": "62385bb119d0e4b53a823d3f7af920436444595e5041c163a20ad197f391152d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Highlights/README.md",
+      "bytes": 1362,
+      "sha256": "cbc836fbffb2969a8d32b17ca8556000721c27ee9d8943c36dfd060d3b6d934f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Highlights/Recommended.php",
+      "bytes": 2596,
+      "sha256": "bb250060be56703d9bad887d0c523c5f1300ae767012d71917030032f9d71ce2"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/Boost.php",
+      "bytes": 6564,
+      "sha256": "a5b37cab6e32e2fbac5c92e658dcba3cf82d91ee8c967c951078c11e283c8db6"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/Directory.php",
+      "bytes": 42806,
+      "sha256": "9b43cfa141231b5df874fb41ee341837c50b862af631e7e2ac1c2cc9301aa053"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/ModeFilters.php",
+      "bytes": 10512,
+      "sha256": "1acb8ee05c7d9aee828161f4d37004431921d6113ca16c953338d8d877a9a317"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/README.md",
+      "bytes": 1204,
+      "sha256": "ce27e31a318f26b0436e7a5b4051fb14f2b057dc1d1d41d192df0a2c1bc85ebe"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/Status.php",
+      "bytes": 6444,
+      "sha256": "69262ae803c30874abc553c6458a1d3f46e0748e03e3d5230e3242d37530e18c"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/TopicPreview.php",
+      "bytes": 4166,
+      "sha256": "876ec805d9c710b04e8959670b5d0764fd14174648723aa63ea53e345f7744ae"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Lists/TopicSeo.php",
+      "bytes": 2392,
+      "sha256": "e9a44ec275c9fe41cef5388392b5cb972cb6e702d1ec2a02e45b8fcb2d54341d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/Policy.php",
+      "bytes": 371,
+      "sha256": "574f2ef912e1052a3a21b54b95c4425ff7ddbac29a01698391d411a5269a4b3e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/PresentationProxy.php",
+      "bytes": 15157,
+      "sha256": "f81e6a3abe12fee989def73ac4e6214ffffc908b7d4b9912ad9b92736a12d57b"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/ProxyAjax.php",
+      "bytes": 6995,
+      "sha256": "5ab3a05dc6ebfc930a7d7a720d0cd42660951c603701d8cab9fcf0e1b1469901"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/ProxyAssets.php",
+      "bytes": 3916,
+      "sha256": "8c8bcbf803ff2154cf4297e737a67faeb24529ca73b453b8de5d699df15e423a"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/ProxySecret.php",
+      "bytes": 1650,
+      "sha256": "f3ecd563e8b1fdf7c37470ebb18a4a82e6575c862ce25f03df895796d8b88f69"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Metin2/README.md",
+      "bytes": 1783,
+      "sha256": "2580290b74103e9a2ea86d73069d535c8006630b3aa7a0c96d685ac15a186d43"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Minecraft/GameRewards.php",
+      "bytes": 3228,
+      "sha256": "97053cc7d2545eb252b98b60bf22af5d3c505e991c5c28097eabfa4f5b6b3e5e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Minecraft/Policy.php",
+      "bytes": 356,
+      "sha256": "878310f58c4822ed942e5c975bde23dad7e9b9a0ad6c3f0bf3c6fa32f10cad05"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Minecraft/README.md",
+      "bytes": 2235,
+      "sha256": "a8f2294785ed6d152e96c038b87414d302b289fc1b7a352317aaf6df62efba38"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Minecraft/Versions.php",
+      "bytes": 4363,
+      "sha256": "a3bfa862285b1362f8fc7533d22bf40d23d12c97f5aab42c99f66bac0d09c4bd"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/GameRewards.php",
+      "bytes": 246,
+      "sha256": "3ec64fe5f925d27939de4838fa719ca1db24c5f88db501f2c41dcc3c117d7715"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/Owner.php",
+      "bytes": 234,
+      "sha256": "e5034159eeb013caf7853b2bb53678e1c726334df959dbab9abc51a7584d7c88"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/OwnerAccess.php",
+      "bytes": 246,
+      "sha256": "18e3edbb483c7c2d33706cf2d7132590ba1a380085e0fa0b8c3f94afaff7ba56"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/OwnerStats.php",
+      "bytes": 244,
+      "sha256": "d582def88007f28ad428ed0699363185f9c4a5e27b7d0c7e0b49d28a1539ca9f"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/README.md",
+      "bytes": 138,
+      "sha256": "274426ae22df183be55d56af987c757f9e2352139217a600bd2fe65bd8e43a0d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Owners/TopicViews.php",
+      "bytes": 244,
+      "sha256": "05feacd6cea39dcce23c1344f88f1e92a0b9432f4f1992bd05fea980ef8be0c8"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/Crew.php",
+      "bytes": 232,
+      "sha256": "7904c042109f6f9f5d593a0ce6c1775cdd14cd9649d9f704ac99c35d6abefc8d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewDirectory.php",
+      "bytes": 250,
+      "sha256": "b5546446173fb5012dc854905f8de67e9ec2c26e41d29db7406ca1797ffeb39e"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewForm.php",
+      "bytes": 240,
+      "sha256": "51a37c7a186040657aa2912f8df421fc36cfd84ad4665a07908637fe4f121408"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewIdentity.php",
+      "bytes": 248,
+      "sha256": "a3e866a713736f7df5ae218331098f71b2e92eb326053ef999525cebd1343400"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewLock.php",
+      "bytes": 240,
+      "sha256": "e568426da9f090473134675bd04462ea21fe4128f33fe58614da6a0534909601"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewProfile.php",
+      "bytes": 246,
+      "sha256": "699466e3e7b3b03e72eab6905c0ad7f252e0e7cc78bda3b8aafe4f0482de9f32"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/CrewRating.php",
+      "bytes": 244,
+      "sha256": "7b43a1b107bd624fe8fdfb50e659bcbdba356c397f16934f6ba494f35609abfd"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/People/README.md",
+      "bytes": 138,
+      "sha256": "274426ae22df183be55d56af987c757f9e2352139217a600bd2fe65bd8e43a0d"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Rankings/Awards.php",
+      "bytes": 239,
+      "sha256": "ed20be561ef56c070e75bcc34359b55a266be9b88e64574d56fe2bc6459446a2"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Rankings/Boost.php",
+      "bytes": 232,
+      "sha256": "5b2b7f2379a055f98e9fd85e1e5e8ddadb412b1eb065ee2b9fb3166b05bfddd7"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Rankings/Highlights.php",
+      "bytes": 247,
+      "sha256": "b482fa06e4bbdd0739aeb2516a7df4fdedf2e85349f2a04c4b73887442c9a999"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Rankings/Rankings.php",
+      "bytes": 243,
+      "sha256": "215573a0902c7009dcd01e81bd73686ef728ba78c65d855eabba75dd72a05720"
+    },
+    {
+      "path": "applications/mpcservers/sources/Modules/Rankings/README.md",
+      "bytes": 139,
+      "sha256": "674b4cbfc17ebf86e4ce973a193f5ad346ab453ff1f516862920aa7ec1e23887"
+    },
+    {
+      "path": "applications/mpcservers/sources/OrdinaryTopic/OrdinaryTopic.php",
+      "bytes": 254,
+      "sha256": "641cc24186c677ba4fa4ff8d2b5203a23b50cc392f3399957fdb6127f0ca31ef"
+    },
+    {
+      "path": "applications/mpcservers/sources/Owner/Owner.php",
+      "bytes": 240,
+      "sha256": "a619c0a1003a1c104a19fc04f8afe967d190becd9990b82cc8218cec9e7e474d"
+    },
+    {
+      "path": "applications/mpcservers/sources/OwnerAccess/OwnerAccess.php",
+      "bytes": 252,
+      "sha256": "d73ef08fc7c64b16457c9bb61159d8e15b20513fd8706a8a9b0a9bd6a0d50899"
+    },
+    {
+      "path": "applications/mpcservers/sources/OwnerStats/OwnerStats.php",
+      "bytes": 250,
+      "sha256": "48064f049abc2c1e26519d741e5e3a4fc630b59d1cb163ac398a21b969f1a704"
+    },
+    {
+      "path": "applications/mpcservers/sources/Presentation/Presentation.php",
+      "bytes": 252,
+      "sha256": "0eb3de589beb01b47b05c282434dd1a0972ebc1ba20b6363abe9cb462e06c1d5"
+    },
+    {
+      "path": "applications/mpcservers/sources/PresentationView/PresentationView.php",
+      "bytes": 260,
+      "sha256": "824cc070db4516e1d9c32dfcf6dfe92003dca45f36dcf2f9f69dbb9c25d3d852"
+    },
+    {
+      "path": "applications/mpcservers/sources/Rankings/Rankings.php",
+      "bytes": 249,
+      "sha256": "e59e81427a48def1a3294ac6b4e867b6fdbbd4560448541452ff8c5e8b79cd92"
+    },
+    {
+      "path": "applications/mpcservers/sources/Recommended/Recommended.php",
+      "bytes": 256,
+      "sha256": "954164a94bd1846fb5bc39b86acd4a2507db6c08c6fb2dad592590b48e4072aa"
+    },
+    {
+      "path": "applications/mpcservers/sources/Servers/Servers.php",
+      "bytes": 237,
+      "sha256": "ded6bb9df7135a0c2cbc08d6c57497a3cdce73aae5be643118dc2959dd83f1cf"
+    },
+    {
+      "path": "applications/mpcservers/sources/Status/Status.php",
+      "bytes": 241,
+      "sha256": "23e64360b8f42018a7d35db8e13d21c99749d349563dccb5b664b454decb0fd1"
+    },
+    {
+      "path": "applications/mpcservers/sources/SystemMigration/SystemMigration.php",
+      "bytes": 253,
+      "sha256": "758211192e2826a3afe763be2541094d894fdf5b4774c22e7de3bbc069a91a0f"
+    },
+    {
+      "path": "applications/mpcservers/sources/TopicForm/TopicForm.php",
+      "bytes": 246,
+      "sha256": "90a239d6fa79f9fe7e86ad46380ae236dc04b1845dd2ef939c420dc71efb3080"
+    },
+    {
+      "path": "applications/mpcservers/sources/TopicViews/TopicViews.php",
+      "bytes": 250,
+      "sha256": "62fa42ea74cbcfd78f1951da8c46656bdc59d090b70104aa9b9890629d58495f"
+    },
+    {
+      "path": "applications/mpcservers/tasks/mover.php",
+      "bytes": 782,
+      "sha256": "99c1c08d78914b3f3840e7336e852d4bbd180c2e1452d867ce284aa4656eb04a"
+    },
+    {
+      "path": "applications/mpcservers/tasks/status.php",
+      "bytes": 853,
+      "sha256": "85f87d2e8a22e97e6b9c53b8740448b8f176b53e88b52f263ccf9961a9e66f75"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 15274,
+      "sha256": "3ee42674b5f1ceb6910f82b0c1f8c1b87243c9d5a3bca18f9033d517cd8eb8e6"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 799,
+      "sha256": "318b2ce711a38c527b00e972c0e775c75bef5800735c1d046d02a71d15488580"
+    },
+    {
+      "path": "docs/ACP-MENU.md",
+      "bytes": 1392,
+      "sha256": "c4a2c9c1d611f2ef75c612fe797ba7ede0689ba12b8181380b6f01f0ff011251"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 31012,
+      "sha256": "5f697fe511b79d4aeb656f487256a4a46b4dabdcbbb6740092725e32a7d25876"
+    },
+    {
+      "path": "docs/CONFIGURATION.md",
+      "bytes": 9056,
+      "sha256": "5cfe7f845976346479efa499f9afc0eb386cf01b35f9600a65b52328d8d560ba"
+    },
+    {
+      "path": "docs/DATA-MODEL.md",
+      "bytes": 11045,
+      "sha256": "4593464feef6f64bf86145aa0d63179fa8109d707140149ef21353c1afd0f83e"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 3524,
+      "sha256": "a0f5d9dadbea5387b5232f5190e8917c464489623b750d1737c8c44b7c34e391"
+    },
+    {
+      "path": "docs/GITHUB.md",
+      "bytes": 1222,
+      "sha256": "b51c27912c4c235b9d66581106f420a330b41cf00c950490e6afe77ec3868e53"
+    },
+    {
+      "path": "docs/SOURCE-MANIFEST.json",
+      "bytes": 57877,
+      "sha256": "f3a81f98780a98da19fc265166913d6b63c1825e9a3a5e87ecbe8960f94e4435"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1886,
+      "sha256": "26de9122ea65e9bd7963ddf81c76f837ec9d4dd843018dd87c48faad858690c5"
+    },
+    {
+      "path": "minecraft/.gitattributes",
+      "bytes": 116,
+      "sha256": "eb973c76be1d53c6a7445fd5068e8b704909e7ad666ec726db057480d749f6a0"
+    },
+    {
+      "path": "minecraft/.gitignore",
+      "bytes": 229,
+      "sha256": "62317ea1cd94bd7b3ecd7a44997126445056b0bf69f9aeac945abed6abfb66da"
+    },
+    {
+      "path": "minecraft/CHANGELOG.md",
+      "bytes": 679,
+      "sha256": "b879fa9c10f4432b5746554fb47728cca428f8babfe2883489cab9df999b6e56"
+    },
+    {
+      "path": "minecraft/docs/PROVENANCE.md",
+      "bytes": 1591,
+      "sha256": "b16bc04002ea0e10c2edfc1727ee36e2a8f77ff75674e47a43b254e0e89cec4f"
+    },
+    {
+      "path": "minecraft/docs/SOURCE-MANIFEST.json",
+      "bytes": 1540,
+      "sha256": "65b8a54d034e458e91cd31a5f773f346cc1543e0e1943160343647728fcfb039"
+    },
+    {
+      "path": "minecraft/docs/VALIDATION.md",
+      "bytes": 1229,
+      "sha256": "3864c2e0eb53f68247a7b2d886bb2cd884c071c173b2b93fe7d13bf7044a005b"
+    },
+    {
+      "path": "minecraft/pom.xml",
+      "bytes": 1083,
+      "sha256": "d04797e16d4962861e19e8cea3d2dc7a8eaedd7971fc2f51d23e3070b6c50da9"
+    },
+    {
+      "path": "minecraft/README.md",
+      "bytes": 4649,
+      "sha256": "81402624b305e709545544c7a7f5e23099819974b2d6ff074d68666d12779a9b"
+    },
+    {
+      "path": "minecraft/releases/MPCforum-3.0.0-beta.2-original.jar",
+      "bytes": 7847,
+      "sha256": "836bd4b58cc5a7502ac0dd9415dd2dae2801b321ce20727012a081eed222fcda"
+    },
+    {
+      "path": "minecraft/releases/SHA256SUMS.txt",
+      "bytes": 102,
+      "sha256": "a8cab36105a76a677c230caac0bd42618b46f9b2c9539264ed1b09de4a9ae908"
+    },
+    {
+      "path": "minecraft/src/main/java/pl/mpc/sps/ServerRewards.java",
+      "bytes": 9162,
+      "sha256": "18dcf112359bd529b5b5dbb64ace622df23e26735724c526072683b39239b3e8"
+    },
+    {
+      "path": "minecraft/src/main/resources/config.yml",
+      "bytes": 504,
+      "sha256": "33f59647a80df39b22f06e92553fd38157972e66e62b4fd474c921768edcd487"
+    },
+    {
+      "path": "minecraft/src/main/resources/plugin.yml",
+      "bytes": 325,
+      "sha256": "78451f4b3b4b94cbddada8c0677b2aea805126a6f8a87d6f643293814202e3e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13569,
+      "sha256": "e56100aa230aa16f3d8b9524df59652df3da88a0cd58535ecf92ae1c4d0b78b9"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 2242,
+      "sha256": "2398797c497c944afd916efcc7ff06521394f2ccaf5a348dbc289e0fe1bf73ec"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 847,
+      "sha256": "735f11b5103e825c5414807f5ac0170f59582fbd44269add6da282513e291821"
+    }
+  ]
+}

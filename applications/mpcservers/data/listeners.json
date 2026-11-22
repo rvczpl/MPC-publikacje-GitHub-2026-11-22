@@ -1,0 +1,12 @@
+{
+    "PostTags": {
+        "type": "ContentListenerType",
+        "classname": "IPS\\mpcservers\\listeners\\PostTags",
+        "extends": "IPS\\forums\\Topic\\Post"
+    },
+    "TopicView": {
+        "type": "ContentListenerType",
+        "classname": "IPS\\mpcservers\\listeners\\TopicView",
+        "extends": "IPS\\forums\\Topic"
+    }
+}

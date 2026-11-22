@@ -1,0 +1,96 @@
+{
+  "metin2": {
+    "settings": {
+      "tab": "mpcplugins",
+      "controller": "settings",
+      "do": "",
+      "restriction": "sls_metin2_manage",
+      "activemenuitem": "mpcservers_publication_metin2settings"
+    },
+    "publications": {
+      "tab": "mpcplugins",
+      "controller": "publications",
+      "do": "",
+      "restriction": "sls_metin2_manage",
+      "activemenuitem": "mpcservers_publication_metin2publications"
+    },
+    "advanced": {
+      "tab": "mpcplugins",
+      "controller": "advanced",
+      "do": "",
+      "restriction": "sls_metin2_manage",
+      "activemenuitem": "mpcservers_publication_metin2advanced"
+    }
+  },
+  "minecraft": {
+    "settings": {
+      "tab": "mpcplugins",
+      "controller": "settings",
+      "do": "",
+      "restriction": "sls_minecraft_manage",
+      "activemenuitem": "mpcservers_publication_minecraftsettings"
+    },
+    "publications": {
+      "tab": "mpcplugins",
+      "controller": "publications",
+      "do": "",
+      "restriction": "sls_minecraft_manage",
+      "activemenuitem": "mpcservers_publication_minecraftpublications"
+    }
+  },
+  "lists": {
+    "settings": {
+      "tab": "mpcplugins",
+      "controller": "settings",
+      "do": "",
+      "restriction": "sls_lists_manage",
+      "activemenuitem": "mpcservers_publication_listssettings"
+    },
+    "options": {
+      "tab": "mpcplugins",
+      "controller": "options",
+      "do": "",
+      "restriction": "sls_lists_manage",
+      "activemenuitem": "mpcservers_publication_listsoptions"
+    },
+    "log": {
+      "tab": "mpcplugins",
+      "controller": "log",
+      "do": "",
+      "restriction": "sls_lists_manage",
+      "activemenuitem": "mpcservers_publication_listslog"
+    }
+  },
+  "highlights": {
+    "settings": {
+      "tab": "mpcplugins",
+      "controller": "settings",
+      "do": "",
+      "restriction": "sls_highlights_manage",
+      "activemenuitem": "mpcservers_publication_highlightssettings"
+    },
+    "recommended": {
+      "tab": "mpcplugins",
+      "controller": "recommended",
+      "do": "",
+      "restriction": "sls_highlights_manage",
+      "activemenuitem": "mpcservers_publication_highlightsrecommended"
+    }
+  },
+  "community": {
+    "settings": {
+      "tab": "mpcplugins",
+      "controller": "settings",
+      "do": "",
+      "restriction": "sls_community_manage",
+      "activemenuitem": "mpcservers_publication_communitysettings"
+    },
+    "identities": {
+      "tab": "mpcplugins",
+      "controller": "identities",
+      "do": "",
+      "restriction": "sls_community_manage",
+      "activemenuitem": "mpcservers_publication_communityidentities"
+    }
+  }
+}

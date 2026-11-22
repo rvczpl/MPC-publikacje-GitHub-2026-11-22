@@ -1,0 +1,27 @@
+{
+    "metin2": {
+        "sls_metin2_options": {
+            "sls_metin2_manage": "sls_metin2_manage"
+        }
+    },
+    "minecraft": {
+        "sls_minecraft_options": {
+            "sls_minecraft_manage": "sls_minecraft_manage"
+        }
+    },
+    "lists": {
+        "sls_lists_options": {
+            "sls_lists_manage": "sls_lists_manage"
+        }
+    },
+    "highlights": {
+        "sls_highlights_options": {
+            "sls_highlights_manage": "sls_highlights_manage"
+        }
+    },
+    "community": {
+        "sls_community_options": {
+            "sls_community_manage": "sls_community_manage"
+        }
+    }
+}

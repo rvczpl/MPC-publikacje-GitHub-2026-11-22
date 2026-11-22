@@ -1,0 +1,2205 @@
+{
+    "mpcservers_forums": {
+        "name": "mpcservers_forums",
+        "columns": {
+            "forum_id": {
+                "name": "forum_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "enabled": {
+                "name": "enabled",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "1",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "description": {
+                "name": "description",
+                "type": "TEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "defs": {
+                "name": "defs",
+                "type": "MEDIUMTEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "archive_id": {
+                "name": "archive_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "days": {
+                "name": "days",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "30",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "activity": {
+                "name": "activity",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "refresh",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "lock_moved": {
+                "name": "lock_moved",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "1",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "skip_pinned": {
+                "name": "skip_pinned",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "1",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "since": {
+                "name": "since",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "updated": {
+                "name": "updated",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "updated_by": {
+                "name": "updated_by",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "checked": {
+                "name": "checked",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "forum_id"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_topics": {
+        "name": "mpcservers_topics",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "forum_id": {
+                "name": "forum_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "attrs": {
+                "name": "attrs",
+                "type": "TEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "updated": {
+                "name": "updated",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "restored": {
+                "name": "restored",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "forum_id": {
+                "type": "key",
+                "name": "forum_id",
+                "columns": [
+                    "forum_id"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_log": {
+        "name": "mpcservers_log",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "title": {
+                "name": "title",
+                "type": "VARCHAR",
+                "length": 255,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "forum_from": {
+                "name": "forum_from",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "forum_to": {
+                "name": "forum_to",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "author_id": {
+                "name": "author_id",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "last_activity": {
+                "name": "last_activity",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "moved_at": {
+                "name": "moved_at",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "imported": {
+                "name": "imported",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "tid": {
+                "type": "key",
+                "name": "tid",
+                "columns": [
+                    "tid"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "moved_at": {
+                "type": "key",
+                "name": "moved_at",
+                "columns": [
+                    "moved_at"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_presentations": {
+        "name": "mpcservers_presentations",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "category": {
+                "name": "category",
+                "type": "VARCHAR",
+                "length": 40,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "mode": {
+                "name": "mode",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "url": {
+                "name": "url",
+                "type": "VARCHAR",
+                "length": 2000,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "host": {
+                "name": "host",
+                "type": "VARCHAR",
+                "length": 255,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "port": {
+                "name": "port",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "protocol": {
+                "name": "protocol",
+                "type": "VARCHAR",
+                "length": 16,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "status": {
+                "name": "status",
+                "type": "VARCHAR",
+                "length": 16,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "checked": {
+                "name": "checked",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "players": {
+                "name": "players",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "capacity": {
+                "name": "capacity",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "bumped": {
+                "name": "bumped",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "votes": {
+                "name": "votes",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "api_hash": {
+                "name": "api_hash",
+                "type": "VARCHAR",
+                "length": 64,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "is_server": {
+                "name": "is_server",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "icon": {
+                "name": "icon",
+                "type": "VARCHAR",
+                "length": 2000,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "featured": {
+                "name": "featured",
+                "type": "TINYINT",
+                "length": 1,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "open_date": {
+                "name": "open_date",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "api_owner": {
+                "name": "api_owner",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "mc_versions": {
+                "name": "mc_versions",
+                "type": "TEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "Selected Minecraft versions as JSON",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "ranking": {
+                "type": "key",
+                "name": "ranking",
+                "columns": [
+                    "bumped",
+                    "tid"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            },
+            "checking": {
+                "type": "key",
+                "name": "checking",
+                "columns": [
+                    "checked"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_votes": {
+        "name": "mpcservers_votes",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "member_id": {
+                "name": "member_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created": {
+                "name": "created",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid",
+                    "member_id"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_rewards": {
+        "name": "mpcservers_rewards",
+        "columns": {
+            "code_hash": {
+                "name": "code_hash",
+                "type": "VARCHAR",
+                "length": 64,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "member_id": {
+                "name": "member_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "player": {
+                "name": "player",
+                "type": "VARCHAR",
+                "length": 16,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created": {
+                "name": "created",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "expires": {
+                "name": "expires",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "claimed": {
+                "name": "claimed",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "code_hash"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "expiry": {
+                "type": "key",
+                "name": "expiry",
+                "columns": [
+                    "expires"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_people": {
+        "name": "mpcservers_people",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "identity_key": {
+                "name": "identity_key",
+                "type": "VARCHAR",
+                "length": 80,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "member_id": {
+                "name": "member_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "name": {
+                "name": "name",
+                "type": "VARCHAR",
+                "length": 120,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created_by": {
+                "name": "created_by",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created_at": {
+                "name": "created_at",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "merged_into": {
+                "name": "merged_into",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "identity": {
+                "type": "unique",
+                "name": "identity",
+                "columns": [
+                    "identity_key"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "member": {
+                "type": "key",
+                "name": "member",
+                "columns": [
+                    "member_id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "member_lookup": {
+                "type": "key",
+                "name": "member_lookup",
+                "columns": [
+                    "member_id",
+                    "merged_into"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_crew": {
+        "name": "mpcservers_crew",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "person_id": {
+                "name": "person_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "game": {
+                "name": "game",
+                "type": "VARCHAR",
+                "length": 40,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "role": {
+                "name": "role",
+                "type": "VARCHAR",
+                "length": 40,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "role_label": {
+                "name": "role_label",
+                "type": "VARCHAR",
+                "length": 120,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "since_date": {
+                "name": "since_date",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created_at": {
+                "name": "created_at",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "ended_at": {
+                "name": "ended_at",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created_by": {
+                "name": "created_by",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "ended_by": {
+                "name": "ended_by",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "server": {
+                "type": "key",
+                "name": "server",
+                "columns": [
+                    "tid",
+                    "ended_at"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            },
+            "person": {
+                "type": "key",
+                "name": "person",
+                "columns": [
+                    "person_id",
+                    "game"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            },
+            "owner_lookup": {
+                "type": "key",
+                "name": "owner_lookup",
+                "columns": [
+                    "tid",
+                    "role",
+                    "ended_at",
+                    "person_id"
+                ],
+                "length": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_crew_audit": {
+        "name": "mpcservers_crew_audit",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "actor": {
+                "name": "actor",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created_at": {
+                "name": "created_at",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "before_data": {
+                "name": "before_data",
+                "type": "MEDIUMTEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "after_data": {
+                "name": "after_data",
+                "type": "MEDIUMTEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "server": {
+                "type": "key",
+                "name": "server",
+                "columns": [
+                    "tid",
+                    "created_at"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_boost_events": {
+        "name": "mpcservers_boost_events",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "member_id": {
+                "name": "member_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created": {
+                "name": "created",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "game": {
+                "name": "game",
+                "type": "VARCHAR",
+                "length": 40,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "mode_data": {
+                "name": "mode_data",
+                "type": "MEDIUMTEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "period": {
+                "type": "key",
+                "name": "period",
+                "columns": [
+                    "created",
+                    "tid"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            },
+            "server": {
+                "type": "key",
+                "name": "server",
+                "columns": [
+                    "tid",
+                    "created"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            },
+            "member_day": {
+                "type": "key",
+                "name": "member_day",
+                "columns": [
+                    "member_id",
+                    "created",
+                    "tid"
+                ],
+                "length": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "history_lookup": {
+                "type": "key",
+                "name": "history_lookup",
+                "columns": [
+                    "created",
+                    "game",
+                    "tid"
+                ],
+                "length": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_awards": {
+        "name": "mpcservers_awards",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "period": {
+                "name": "period",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "starts": {
+                "name": "starts",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "ends": {
+                "name": "ends",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "game": {
+                "name": "game",
+                "type": "VARCHAR",
+                "length": 40,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "mode_key": {
+                "name": "mode_key",
+                "type": "VARCHAR",
+                "length": 160,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "mode_label": {
+                "name": "mode_label",
+                "type": "VARCHAR",
+                "length": 120,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "points": {
+                "name": "points",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "title": {
+                "name": "title",
+                "type": "VARCHAR",
+                "length": 255,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "unique_period": {
+                "type": "unique",
+                "name": "unique_period",
+                "columns": [
+                    "tid",
+                    "period",
+                    "starts",
+                    "game",
+                    "mode_key"
+                ],
+                "length": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_award_periods": {
+        "name": "mpcservers_award_periods",
+        "columns": {
+            "id": {
+                "name": "id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": true,
+                "binary": false
+            },
+            "period": {
+                "name": "period",
+                "type": "VARCHAR",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "starts": {
+                "name": "starts",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "ends": {
+                "name": "ends",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "id"
+                ],
+                "length": [
+                    null
+                ]
+            },
+            "unique_period": {
+                "type": "unique",
+                "name": "unique_period",
+                "columns": [
+                    "period",
+                    "starts"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "mpcservers_crew_locks": {
+        "name": "mpcservers_crew_locks",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "unsigned": true,
+                "allow_null": false,
+                "default": 0
+            },
+            "locked": {
+                "name": "locked",
+                "type": "INT",
+                "length": 10,
+                "unsigned": true,
+                "allow_null": false,
+                "default": 0
+            },
+            "actor": {
+                "name": "actor",
+                "type": "INT",
+                "length": 10,
+                "unsigned": true,
+                "allow_null": false,
+                "default": 0
+            },
+            "changed_at": {
+                "name": "changed_at",
+                "type": "INT",
+                "length": 10,
+                "unsigned": true,
+                "allow_null": false,
+                "default": 0
+            },
+            "reason": {
+                "name": "reason",
+                "type": "VARCHAR",
+                "length": 500,
+                "allow_null": false,
+                "default": ""
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB"
+    },
+    "mpcservers_topic_views": {
+        "name": "mpcservers_topic_views",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "view_day": {
+                "name": "view_day",
+                "type": "DATE",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "views": {
+                "name": "views",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid",
+                    "view_day"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "comment": ""
+    },
+    "mpcservers_crew_ratings": {
+        "name": "mpcservers_crew_ratings",
+        "columns": {
+            "person_id": {
+                "name": "person_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "member_id": {
+                "name": "member_id",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "score": {
+                "name": "score",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "updated": {
+                "name": "updated",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "person_id",
+                    "member_id"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "comment": ""
+    },
+    "mpcservers_tag_backup": {
+        "name": "mpcservers_tag_backup",
+        "columns": {
+            "tid": {
+                "name": "tid",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "tags_json": {
+                "name": "tags_json",
+                "type": "TEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "created": {
+                "name": "created",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "tid"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        }
+    },
+    "mpcservers_job_state": {
+        "name": "mpcservers_job_state",
+        "columns": {
+            "job": {
+                "name": "job",
+                "type": "VARCHAR",
+                "length": 24,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "failures": {
+                "name": "failures",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "blocked_until": {
+                "name": "blocked_until",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            },
+            "last_error": {
+                "name": "last_error",
+                "type": "VARCHAR",
+                "length": 190,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        },
+        "indexes": {
+            "PRIMARY": {
+                "type": "primary",
+                "name": "PRIMARY",
+                "columns": [
+                    "job"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        },
+        "engine": "InnoDB",
+        "comment": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "MPCServerSystem - wyróżnione serwery w nagłówku działu": {
+        "hookpoint": "forums/front/forums/forumDisplay:header",
+        "type": "inside-end",
+        "key": "mpcservers_forum_header",
+        "version": 60000,
+        "content": "{expression=\"\\IPS\\mpcservers\\Modules\\Core\\TemplateHooks::forumHeader( $forum )\" raw=\"true\"}"
+    },
+    "MPCServerSystem - prezentacja przed pierwszym postem": {
+        "hookpoint": "forums/front/topics/postContainer:postWrapper",
+        "type": "before",
+        "key": "mpcservers_post_before",
+        "version": 60000,
+        "content": "{expression=\"\\IPS\\mpcservers\\Modules\\Core\\TemplateHooks::beforePost( $item, $comment )\" raw=\"true\"}"
+    },
+    "MPCServerSystem - statystyki i podbijanie po pierwszym poście": {
+        "hookpoint": "forums/front/topics/postContainer:postWrapper",
+        "type": "after",
+        "key": "mpcservers_post_after",
+        "version": 60000,
+        "content": "{expression=\"\\IPS\\mpcservers\\Modules\\Core\\TemplateHooks::afterPost( $item, $comment )\" raw=\"true\"}"
+    }
+}

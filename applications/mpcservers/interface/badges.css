@@ -1,0 +1,19 @@
+.ipsBadge.mpcs-b{color:#fff;background:var(--mpcs-c)}
+.ipsBadge.sps-recommended{background:#d5ac48;color:#211b0d;font-weight:700}
+.mpcs-c0{--mpcs-c:#1d4ed8}
+.mpcs-c1{--mpcs-c:#047857}
+.mpcs-c2{--mpcs-c:#b45309}
+.mpcs-c3{--mpcs-c:#6d28d9}
+.mpcs-c4{--mpcs-c:#0e7490}
+.mpcs-c5{--mpcs-c:#be185d}
+.mpcs-c6{--mpcs-c:#4b5563}
+.mpcs-c7{--mpcs-c:#4d7c0f}
+.mpcs-c8{--mpcs-c:#b91c1c}
+.mpcs-c9{--mpcs-c:#1e3a8a}
+
+/* 6.0.2: hide only metadata confirmed to repeat the visible author/time. */
+.ipsData--topic-feed-widget [data-mpcs-duplicate-meta] { display: none !important; }
+
+/* 6.0.6: publication prefixes precede the topic title, including editable titles. */
+.ipsPageHeader__title > .mpcs-title-prefixes{order:-1;display:inline-flex;flex-wrap:wrap;gap:4px;align-items:center;vertical-align:middle;margin-right:8px;max-width:100%;min-width:0}
+.ipsPageHeader__title > [data-ips-hook="badges"][hidden]{display:none}

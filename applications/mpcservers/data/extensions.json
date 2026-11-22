@@ -1,0 +1,19 @@
+{
+    "core": {
+        "Loader": {
+            "Servers": "IPS\\mpcservers\\extensions\\core\\Loader\\Servers"
+        },
+        "UIItem": {
+            "TopicForm": "IPS\\mpcservers\\extensions\\core\\UIItem\\TopicForm"
+        },
+        "UserMenu": {
+            "OwnerPanel": "IPS\\mpcservers\\extensions\\core\\UserMenu\\OwnerPanel"
+        },
+        "Profile": {
+            "Servers": "IPS\\mpcservers\\extensions\\core\\Profile\\Servers"
+        },
+        "FileStorage": {
+            "Graphics": "IPS\\mpcservers\\extensions\\core\\FileStorage\\Graphics"
+        }
+    }
+}
